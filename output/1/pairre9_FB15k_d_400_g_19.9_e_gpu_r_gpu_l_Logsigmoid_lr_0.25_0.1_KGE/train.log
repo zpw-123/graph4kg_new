@@ -1,0 +1,679 @@
+2022-12-06 03:36:11 INFO     seed                :0
+2022-12-06 03:36:11 INFO     data_path           :./data
+2022-12-06 03:36:11 INFO     save_path           :output/1/pairre9_FB15k_d_400_g_19.9_e_gpu_r_gpu_l_Logsigmoid_lr_0.25_0.1_KGE
+2022-12-06 03:36:11 INFO     init_from_ckpt      :None
+2022-12-06 03:36:11 INFO     data_name           :FB15k
+2022-12-06 03:36:11 INFO     use_dict            :False
+2022-12-06 03:36:11 INFO     kv_mode             :kv
+2022-12-06 03:36:11 INFO     batch_size          :1000
+2022-12-06 03:36:11 INFO     test_batch_size     :16
+2022-12-06 03:36:11 INFO     neg_sample_size     :200
+2022-12-06 03:36:11 INFO     filter_eval         :True
+2022-12-06 03:36:11 INFO     model_name          :pairre9
+2022-12-06 03:36:11 INFO     embed_dim           :400
+2022-12-06 03:36:11 INFO     reg_coef            :1e-09
+2022-12-06 03:36:11 INFO     loss_type           :Logsigmoid
+2022-12-06 03:36:11 INFO     max_steps           :80000
+2022-12-06 03:36:11 INFO     lr                  :0.25
+2022-12-06 03:36:11 INFO     optimizer           :adam
+2022-12-06 03:36:11 INFO     cpu_lr              :0.1
+2022-12-06 03:36:11 INFO     cpu_optimizer       :adagrad
+2022-12-06 03:36:11 INFO     mix_cpu_gpu         :False
+2022-12-06 03:36:11 INFO     async_update        :False
+2022-12-06 03:36:11 INFO     valid               :True
+2022-12-06 03:36:11 INFO     test                :False
+2022-12-06 03:36:11 INFO     task_name           :KGE
+2022-12-06 03:36:11 INFO     num_workers         :8
+2022-12-06 03:36:11 INFO     neg_sample_type     :full
+2022-12-06 03:36:11 INFO     neg_deg_sample      :False
+2022-12-06 03:36:11 INFO     neg_adversarial_sampling:True
+2022-12-06 03:36:11 INFO     adversarial_temperature:1.0
+2022-12-06 03:36:11 INFO     filter_sample       :False
+2022-12-06 03:36:11 INFO     valid_percent       :1.0
+2022-12-06 03:36:11 INFO     use_feature         :False
+2022-12-06 03:36:11 INFO     reg_type            :norm_er
+2022-12-06 03:36:11 INFO     reg_norm            :3
+2022-12-06 03:36:11 INFO     weighted_loss       :False
+2022-12-06 03:36:11 INFO     margin              :1.0
+2022-12-06 03:36:11 INFO     pairwise            :False
+2022-12-06 03:36:11 INFO     gamma               :19.9
+2022-12-06 03:36:11 INFO     ote_scale           :0
+2022-12-06 03:36:11 INFO     ote_size            :1
+2022-12-06 03:36:11 INFO     quate_lmbda1        :0.0
+2022-12-06 03:36:11 INFO     quate_lmbda2        :0.0
+2022-12-06 03:36:11 INFO     num_epoch           :1000000
+2022-12-06 03:36:11 INFO     scheduler_interval  :-1
+2022-12-06 03:36:11 INFO     num_process         :1
+2022-12-06 03:36:11 INFO     print_on_screen     :True
+2022-12-06 03:36:11 INFO     log_interval        :100
+2022-12-06 03:36:11 INFO     save_interval       :-1
+2022-12-06 03:36:11 INFO     eval_interval       :500
+2022-12-06 03:36:11 INFO     ent_emb_on_cpu      :False
+2022-12-06 03:36:11 INFO     rel_emb_on_cpu      :False
+2022-12-06 03:36:11 INFO     use_embedding_regularization:True
+2022-12-06 03:36:11 INFO     ent_dim             :400
+2022-12-06 03:36:11 INFO     rel_dim             :800
+2022-12-06 03:36:11 INFO     num_chunks          :1000
+2022-12-06 03:36:24 INFO     [GPU 0] step: 99, loss: 3.34664, reg: 2.4024e-01, speed: 20.69 steps/s, time: 4.83 s
+2022-12-06 03:36:24 INFO     sample: 3.298893, forward: 1.410117, backward: 0.092987, update: 0.031413
+2022-12-06 03:36:28 INFO     [GPU 0] step: 199, loss: 2.17515, reg: 6.4510e-01, speed: 23.23 steps/s, time: 4.30 s
+2022-12-06 03:36:28 INFO     sample: 2.782973, forward: 1.414813, backward: 0.078824, update: 0.027324
+2022-12-06 03:36:32 INFO     [GPU 0] step: 299, loss: 2.17733, reg: 7.7615e-01, speed: 23.26 steps/s, time: 4.30 s
+2022-12-06 03:36:32 INFO     sample: 2.817968, forward: 1.384310, backward: 0.071016, update: 0.026060
+2022-12-06 03:36:37 INFO     [GPU 0] step: 399, loss: 2.19103, reg: 8.4964e-01, speed: 23.31 steps/s, time: 4.29 s
+2022-12-06 03:36:37 INFO     sample: 2.788600, forward: 1.404971, backward: 0.070053, update: 0.025614
+2022-12-06 03:36:41 INFO     [GPU 0] step: 499, loss: 2.16166, reg: 8.8698e-01, speed: 21.04 steps/s, time: 4.75 s
+2022-12-06 03:36:41 INFO     sample: 3.213666, forward: 1.437381, backward: 0.074048, update: 0.028234
+2022-12-06 03:36:41 INFO     [evaluation] start...
+2022-12-06 03:40:48 INFO     -------------- valid result --------------
+2022-12-06 03:40:48 INFO     t,r->h  |MRR: 0.03050396218895912 MR: 4064.73954 HITS@1: 0.01098 HITS@3: 0.03762 HITS@10: 0.0617
+2022-12-06 03:40:48 INFO     h,r->t  |MRR: 0.3896968364715576 MR: 230.0457 HITS@1: 0.2832 HITS@3: 0.43336 HITS@10: 0.60018
+2022-12-06 03:40:48 INFO     average |MRR: 0.21010039746761322 MR: 2147.39262 HITS@1: 0.14709 HITS@3: 0.23549 HITS@10: 0.33094
+2022-12-06 03:40:48 INFO     -----------------------------------------
+2022-12-06 03:40:48 INFO     [evaluation] finished! It takes 246.5698 sec s
+2022-12-06 03:40:52 INFO     [GPU 0] step: 599, loss: 2.09760, reg: 8.7640e-01, speed: 0.40 steps/s, time: 250.86 s
+2022-12-06 03:40:52 INFO     sample: 2.711239, forward: 1.459002, backward: 0.083715, update: 0.034142
+2022-12-06 03:40:57 INFO     [GPU 0] step: 699, loss: 2.03975, reg: 8.9432e-01, speed: 23.06 steps/s, time: 4.34 s
+2022-12-06 03:40:57 INFO     sample: 2.732419, forward: 1.481557, backward: 0.086671, update: 0.034485
+2022-12-06 03:41:01 INFO     [GPU 0] step: 799, loss: 2.05398, reg: 9.1475e-01, speed: 23.02 steps/s, time: 4.34 s
+2022-12-06 03:41:01 INFO     sample: 2.731444, forward: 1.489160, backward: 0.089093, update: 0.033153
+2022-12-06 03:41:05 INFO     [GPU 0] step: 899, loss: 2.03729, reg: 9.2617e-01, speed: 23.08 steps/s, time: 4.33 s
+2022-12-06 03:41:05 INFO     sample: 2.836703, forward: 1.396970, backward: 0.072856, update: 0.026103
+2022-12-06 03:41:10 INFO     [GPU 0] step: 999, loss: 2.01673, reg: 9.2718e-01, speed: 20.93 steps/s, time: 4.78 s
+2022-12-06 03:41:10 INFO     sample: 3.227176, forward: 1.435829, backward: 0.084055, update: 0.030477
+2022-12-06 03:41:10 INFO     [evaluation] start...
+2022-12-06 03:45:14 INFO     -------------- valid result --------------
+2022-12-06 03:45:14 INFO     t,r->h  |MRR: 0.04141576588153839 MR: 3245.334 HITS@1: 0.0196 HITS@3: 0.04344 HITS@10: 0.07992
+2022-12-06 03:45:14 INFO     h,r->t  |MRR: 0.42509159445762634 MR: 206.03576 HITS@1: 0.3121 HITS@3: 0.47442 HITS@10: 0.65072
+2022-12-06 03:45:14 INFO     average |MRR: 0.23325368762016296 MR: 1725.68488 HITS@1: 0.16585 HITS@3: 0.25893 HITS@10: 0.36532
+2022-12-06 03:45:14 INFO     -----------------------------------------
+2022-12-06 03:45:14 INFO     [evaluation] finished! It takes 244.5033 sec s
+2022-12-06 03:45:19 INFO     [GPU 0] step: 1099, loss: 1.94766, reg: 9.0143e-01, speed: 0.40 steps/s, time: 248.78 s
+2022-12-06 03:45:19 INFO     sample: 2.723631, forward: 1.437943, backward: 0.082346, update: 0.032890
+2022-12-06 03:45:23 INFO     [GPU 0] step: 1199, loss: 1.90240, reg: 9.0964e-01, speed: 23.28 steps/s, time: 4.30 s
+2022-12-06 03:45:23 INFO     sample: 2.780819, forward: 1.416102, backward: 0.072024, update: 0.026400
+2022-12-06 03:45:27 INFO     [GPU 0] step: 1299, loss: 1.91268, reg: 9.2709e-01, speed: 23.31 steps/s, time: 4.29 s
+2022-12-06 03:45:27 INFO     sample: 2.786839, forward: 1.406190, backward: 0.070921, update: 0.026036
+2022-12-06 03:45:32 INFO     [GPU 0] step: 1399, loss: 1.90029, reg: 9.2878e-01, speed: 23.35 steps/s, time: 4.28 s
+2022-12-06 03:45:32 INFO     sample: 2.768896, forward: 1.415591, backward: 0.071250, update: 0.025858
+2022-12-06 03:45:36 INFO     [GPU 0] step: 1499, loss: 1.89283, reg: 9.2519e-01, speed: 20.87 steps/s, time: 4.79 s
+2022-12-06 03:45:36 INFO     sample: 3.255050, forward: 1.431508, backward: 0.076455, update: 0.028796
+2022-12-06 03:45:36 INFO     [evaluation] start...
+2022-12-06 03:51:33 INFO     -------------- valid result --------------
+2022-12-06 03:51:33 INFO     t,r->h  |MRR: 0.04755636304616928 MR: 2835.68856 HITS@1: 0.0231 HITS@3: 0.0481 HITS@10: 0.0917
+2022-12-06 03:51:33 INFO     h,r->t  |MRR: 0.47575926780700684 MR: 197.96404 HITS@1: 0.3648 HITS@3: 0.52526 HITS@10: 0.69694
+2022-12-06 03:51:33 INFO     average |MRR: 0.26165780425071716 MR: 1516.8263 HITS@1: 0.19395 HITS@3: 0.28668 HITS@10: 0.39432
+2022-12-06 03:51:33 INFO     -----------------------------------------
+2022-12-06 03:51:33 INFO     [evaluation] finished! It takes 357.0109 sec s
+2022-12-06 03:51:38 INFO     [GPU 0] step: 1599, loss: 1.85155, reg: 9.0944e-01, speed: 0.28 steps/s, time: 361.72 s
+2022-12-06 03:51:38 INFO     sample: 2.972235, forward: 1.613934, backward: 0.083216, update: 0.033845
+2022-12-06 03:51:43 INFO     [GPU 0] step: 1699, loss: 1.82868, reg: 9.1978e-01, speed: 21.20 steps/s, time: 4.72 s
+2022-12-06 03:51:43 INFO     sample: 2.975362, forward: 1.627203, backward: 0.080359, update: 0.032678
+2022-12-06 03:51:48 INFO     [GPU 0] step: 1799, loss: 1.82550, reg: 9.2652e-01, speed: 21.22 steps/s, time: 4.71 s
+2022-12-06 03:51:48 INFO     sample: 2.979416, forward: 1.620158, backward: 0.080529, update: 0.032524
+2022-12-06 03:51:52 INFO     [GPU 0] step: 1899, loss: 1.82444, reg: 9.3556e-01, speed: 21.25 steps/s, time: 4.71 s
+2022-12-06 03:51:52 INFO     sample: 2.974749, forward: 1.617700, backward: 0.079286, update: 0.033241
+2022-12-06 03:51:57 INFO     [GPU 0] step: 1999, loss: 1.83543, reg: 9.3203e-01, speed: 19.31 steps/s, time: 5.18 s
+2022-12-06 03:51:57 INFO     sample: 3.468174, forward: 1.593514, backward: 0.082062, update: 0.033002
+2022-12-06 03:51:57 INFO     [evaluation] start...
+2022-12-06 03:57:49 INFO     -------------- valid result --------------
+2022-12-06 03:57:49 INFO     t,r->h  |MRR: 0.056282371282577515 MR: 2467.21344 HITS@1: 0.02808 HITS@3: 0.05834 HITS@10: 0.10748
+2022-12-06 03:57:49 INFO     h,r->t  |MRR: 0.5364715456962585 MR: 190.8457 HITS@1: 0.4328 HITS@3: 0.58636 HITS@10: 0.74054
+2022-12-06 03:57:49 INFO     average |MRR: 0.29637694358825684 MR: 1329.02957 HITS@1: 0.23044 HITS@3: 0.32235 HITS@10: 0.42401
+2022-12-06 03:57:49 INFO     -----------------------------------------
+2022-12-06 03:57:50 INFO     [evaluation] finished! It takes 352.2189 sec s
+2022-12-06 03:57:54 INFO     [GPU 0] step: 2099, loss: 1.78004, reg: 9.1139e-01, speed: 0.28 steps/s, time: 356.87 s
+2022-12-06 03:57:54 INFO     sample: 2.889985, forward: 1.643908, backward: 0.084831, update: 0.034246
+2022-12-06 03:57:59 INFO     [GPU 0] step: 2199, loss: 1.77977, reg: 9.2256e-01, speed: 21.34 steps/s, time: 4.69 s
+2022-12-06 03:57:59 INFO     sample: 2.938483, forward: 1.629526, backward: 0.083970, update: 0.034199
+2022-12-06 03:58:04 INFO     [GPU 0] step: 2299, loss: 1.77212, reg: 9.2476e-01, speed: 21.30 steps/s, time: 4.69 s
+2022-12-06 03:58:04 INFO     sample: 2.938008, forward: 1.635699, backward: 0.085479, update: 0.034746
+2022-12-06 03:58:08 INFO     [GPU 0] step: 2399, loss: 1.76827, reg: 9.3770e-01, speed: 21.35 steps/s, time: 4.68 s
+2022-12-06 03:58:08 INFO     sample: 2.943104, forward: 1.621865, backward: 0.084330, update: 0.034146
+2022-12-06 03:58:14 INFO     [GPU 0] step: 2499, loss: 1.78444, reg: 9.2158e-01, speed: 19.55 steps/s, time: 5.12 s
+2022-12-06 03:58:14 INFO     sample: 3.358059, forward: 1.640588, backward: 0.083611, update: 0.033416
+2022-12-06 03:58:14 INFO     [evaluation] start...
+2022-12-06 04:04:03 INFO     -------------- valid result --------------
+2022-12-06 04:04:03 INFO     t,r->h  |MRR: 0.06617703288793564 MR: 2134.45874 HITS@1: 0.03498 HITS@3: 0.06754 HITS@10: 0.12516
+2022-12-06 04:04:03 INFO     h,r->t  |MRR: 0.5766572952270508 MR: 165.19608 HITS@1: 0.47266 HITS@3: 0.63222 HITS@10: 0.77772
+2022-12-06 04:04:03 INFO     average |MRR: 0.3214171528816223 MR: 1149.82741 HITS@1: 0.25382 HITS@3: 0.34988 HITS@10: 0.45143999999999995
+2022-12-06 04:04:03 INFO     -----------------------------------------
+2022-12-06 04:04:03 INFO     [evaluation] finished! It takes 349.3661 sec s
+2022-12-06 04:04:08 INFO     [GPU 0] step: 2599, loss: 1.72305, reg: 9.1027e-01, speed: 0.28 steps/s, time: 354.01 s
+2022-12-06 04:04:08 INFO     sample: 2.895328, forward: 1.632467, backward: 0.084542, update: 0.033992
+2022-12-06 04:04:12 INFO     [GPU 0] step: 2699, loss: 1.75977, reg: 9.2253e-01, speed: 21.31 steps/s, time: 4.69 s
+2022-12-06 04:04:12 INFO     sample: 2.965765, forward: 1.607927, backward: 0.084749, update: 0.034045
+2022-12-06 04:04:17 INFO     [GPU 0] step: 2799, loss: 1.74924, reg: 9.3271e-01, speed: 21.33 steps/s, time: 4.69 s
+2022-12-06 04:04:17 INFO     sample: 2.916240, forward: 1.652449, backward: 0.084348, update: 0.034156
+2022-12-06 04:04:22 INFO     [GPU 0] step: 2899, loss: 1.75161, reg: 9.4476e-01, speed: 19.54 steps/s, time: 5.12 s
+2022-12-06 04:04:22 INFO     sample: 3.378111, forward: 1.622635, backward: 0.083152, update: 0.033279
+2022-12-06 04:04:27 INFO     [GPU 0] step: 2999, loss: 1.74342, reg: 9.1843e-01, speed: 21.23 steps/s, time: 4.71 s
+2022-12-06 04:04:27 INFO     sample: 2.952014, forward: 1.638012, backward: 0.085730, update: 0.034157
+2022-12-06 04:04:27 INFO     [evaluation] start...
+2022-12-06 04:09:29 INFO     -------------- valid result --------------
+2022-12-06 04:09:29 INFO     t,r->h  |MRR: 0.07144176959991455 MR: 1872.66872 HITS@1: 0.0386 HITS@3: 0.07386 HITS@10: 0.13284
+2022-12-06 04:09:29 INFO     h,r->t  |MRR: 0.6223813891410828 MR: 151.7038 HITS@1: 0.5196 HITS@3: 0.68596 HITS@10: 0.80908
+2022-12-06 04:09:29 INFO     average |MRR: 0.34691157937049866 MR: 1012.18626 HITS@1: 0.27909999999999996 HITS@3: 0.37991 HITS@10: 0.47096000000000005
+2022-12-06 04:09:29 INFO     -----------------------------------------
+2022-12-06 04:09:29 INFO     [evaluation] finished! It takes 302.3777 sec s
+2022-12-06 04:09:34 INFO     [GPU 0] step: 3099, loss: 1.70693, reg: 9.1785e-01, speed: 0.33 steps/s, time: 307.03 s
+2022-12-06 04:09:34 INFO     sample: 2.915403, forward: 1.612856, backward: 0.084556, update: 0.034391
+2022-12-06 04:09:38 INFO     [GPU 0] step: 3199, loss: 1.72981, reg: 9.3047e-01, speed: 21.35 steps/s, time: 4.68 s
+2022-12-06 04:09:38 INFO     sample: 2.937548, forward: 1.628468, backward: 0.084074, update: 0.033878
+2022-12-06 04:09:43 INFO     [GPU 0] step: 3299, loss: 1.72331, reg: 9.4175e-01, speed: 21.44 steps/s, time: 4.66 s
+2022-12-06 04:09:43 INFO     sample: 2.930323, forward: 1.614939, backward: 0.084240, update: 0.033811
+2022-12-06 04:09:48 INFO     [GPU 0] step: 3399, loss: 1.73426, reg: 9.4741e-01, speed: 19.60 steps/s, time: 5.10 s
+2022-12-06 04:09:48 INFO     sample: 3.364887, forward: 1.619724, backward: 0.083644, update: 0.033816
+2022-12-06 04:09:53 INFO     [GPU 0] step: 3499, loss: 1.72972, reg: 9.1197e-01, speed: 21.32 steps/s, time: 4.69 s
+2022-12-06 04:09:53 INFO     sample: 2.934314, forward: 1.621351, backward: 0.086463, update: 0.048342
+2022-12-06 04:09:53 INFO     [evaluation] start...
+2022-12-06 04:15:42 INFO     -------------- valid result --------------
+2022-12-06 04:15:42 INFO     t,r->h  |MRR: 0.0747278556227684 MR: 1728.92244 HITS@1: 0.04108 HITS@3: 0.07616 HITS@10: 0.13892
+2022-12-06 04:15:42 INFO     h,r->t  |MRR: 0.6537301540374756 MR: 153.09552 HITS@1: 0.5561 HITS@3: 0.71812 HITS@10: 0.82476
+2022-12-06 04:15:42 INFO     average |MRR: 0.3642289936542511 MR: 941.0089800000001 HITS@1: 0.29859 HITS@3: 0.39714 HITS@10: 0.48184000000000005
+2022-12-06 04:15:42 INFO     -----------------------------------------
+2022-12-06 04:15:42 INFO     [evaluation] finished! It takes 349.3959 sec s
+2022-12-06 04:15:47 INFO     [GPU 0] step: 3599, loss: 1.70857, reg: 9.2653e-01, speed: 0.28 steps/s, time: 354.03 s
+2022-12-06 04:15:47 INFO     sample: 2.892603, forward: 1.622754, backward: 0.084533, update: 0.033804
+2022-12-06 04:15:52 INFO     [GPU 0] step: 3699, loss: 1.72156, reg: 9.3924e-01, speed: 21.30 steps/s, time: 4.69 s
+2022-12-06 04:15:52 INFO     sample: 2.947787, forward: 1.627176, backward: 0.084666, update: 0.033876
+2022-12-06 04:15:56 INFO     [GPU 0] step: 3799, loss: 1.72989, reg: 9.4563e-01, speed: 21.41 steps/s, time: 4.67 s
+2022-12-06 04:15:56 INFO     sample: 2.906317, forward: 1.647098, backward: 0.083738, update: 0.033645
+2022-12-06 04:16:01 INFO     [GPU 0] step: 3899, loss: 1.73776, reg: 9.4984e-01, speed: 19.63 steps/s, time: 5.10 s
+2022-12-06 04:16:01 INFO     sample: 3.342718, forward: 1.621378, backward: 0.083420, update: 0.047102
+2022-12-06 04:16:06 INFO     [GPU 0] step: 3999, loss: 1.71071, reg: 9.2540e-01, speed: 21.32 steps/s, time: 4.69 s
+2022-12-06 04:16:06 INFO     sample: 2.934823, forward: 1.636676, backward: 0.083837, update: 0.033434
+2022-12-06 04:16:06 INFO     [evaluation] start...
+2022-12-06 04:20:21 INFO     -------------- valid result --------------
+2022-12-06 04:20:21 INFO     t,r->h  |MRR: 0.07412083446979523 MR: 1664.78686 HITS@1: 0.03894 HITS@3: 0.07622 HITS@10: 0.14234
+2022-12-06 04:20:21 INFO     h,r->t  |MRR: 0.6697710752487183 MR: 147.53204 HITS@1: 0.57312 HITS@3: 0.73526 HITS@10: 0.83916
+2022-12-06 04:20:21 INFO     average |MRR: 0.37194594740867615 MR: 906.15945 HITS@1: 0.30602999999999997 HITS@3: 0.40574 HITS@10: 0.49075
+2022-12-06 04:20:21 INFO     -----------------------------------------
+2022-12-06 04:20:21 INFO     [evaluation] finished! It takes 254.8014 sec s
+2022-12-06 04:20:25 INFO     [GPU 0] step: 4099, loss: 1.70578, reg: 9.2489e-01, speed: 0.39 steps/s, time: 259.07 s
+2022-12-06 04:20:25 INFO     sample: 2.738493, forward: 1.420810, backward: 0.075454, update: 0.028102
+2022-12-06 04:20:29 INFO     [GPU 0] step: 4199, loss: 1.71942, reg: 9.4241e-01, speed: 23.44 steps/s, time: 4.27 s
+2022-12-06 04:20:29 INFO     sample: 2.770235, forward: 1.399713, backward: 0.070492, update: 0.025741
+2022-12-06 04:20:34 INFO     [GPU 0] step: 4299, loss: 1.71632, reg: 9.4842e-01, speed: 23.39 steps/s, time: 4.28 s
+2022-12-06 04:20:34 INFO     sample: 2.761448, forward: 1.416885, backward: 0.070647, update: 0.026421
+2022-12-06 04:20:38 INFO     [GPU 0] step: 4399, loss: 1.72093, reg: 9.4419e-01, speed: 21.06 steps/s, time: 4.75 s
+2022-12-06 04:20:38 INFO     sample: 3.198733, forward: 1.437061, backward: 0.084243, update: 0.028497
+2022-12-06 04:20:43 INFO     [GPU 0] step: 4499, loss: 1.69367, reg: 9.2402e-01, speed: 23.12 steps/s, time: 4.33 s
+2022-12-06 04:20:43 INFO     sample: 2.756866, forward: 1.453979, backward: 0.086482, update: 0.027814
+2022-12-06 04:20:43 INFO     [evaluation] start...
+2022-12-06 04:24:47 INFO     -------------- valid result --------------
+2022-12-06 04:24:47 INFO     t,r->h  |MRR: 0.07913218438625336 MR: 1593.21284 HITS@1: 0.04358 HITS@3: 0.08168 HITS@10: 0.14862
+2022-12-06 04:24:47 INFO     h,r->t  |MRR: 0.6829665899276733 MR: 144.151 HITS@1: 0.591 HITS@3: 0.74646 HITS@10: 0.84466
+2022-12-06 04:24:47 INFO     average |MRR: 0.38104939460754395 MR: 868.68192 HITS@1: 0.31728999999999996 HITS@3: 0.41407 HITS@10: 0.49663999999999997
+2022-12-06 04:24:47 INFO     -----------------------------------------
+2022-12-06 04:24:47 INFO     [evaluation] finished! It takes 244.6565 sec s
+2022-12-06 04:24:52 INFO     [GPU 0] step: 4599, loss: 1.72593, reg: 9.3657e-01, speed: 0.40 steps/s, time: 248.92 s
+2022-12-06 04:24:52 INFO     sample: 2.747728, forward: 1.405180, backward: 0.077893, update: 0.029563
+2022-12-06 04:24:56 INFO     [GPU 0] step: 4699, loss: 1.72051, reg: 9.5149e-01, speed: 23.29 steps/s, time: 4.29 s
+2022-12-06 04:24:56 INFO     sample: 2.774013, forward: 1.422102, backward: 0.071102, update: 0.025926
+2022-12-06 04:25:00 INFO     [GPU 0] step: 4799, loss: 1.72156, reg: 9.5545e-01, speed: 23.37 steps/s, time: 4.28 s
+2022-12-06 04:25:00 INFO     sample: 2.781508, forward: 1.400178, backward: 0.070924, update: 0.026487
+2022-12-06 04:25:05 INFO     [GPU 0] step: 4899, loss: 1.72392, reg: 9.4126e-01, speed: 21.06 steps/s, time: 4.75 s
+2022-12-06 04:25:05 INFO     sample: 3.190497, forward: 1.449215, backward: 0.078620, update: 0.029864
+2022-12-06 04:25:09 INFO     [GPU 0] step: 4999, loss: 1.69389, reg: 9.2977e-01, speed: 23.38 steps/s, time: 4.28 s
+2022-12-06 04:25:09 INFO     sample: 2.779361, forward: 1.398771, backward: 0.071867, update: 0.026293
+2022-12-06 04:25:09 INFO     [evaluation] start...
+2022-12-06 04:29:15 INFO     -------------- valid result --------------
+2022-12-06 04:29:15 INFO     t,r->h  |MRR: 0.07971061021089554 MR: 1549.90788 HITS@1: 0.0443 HITS@3: 0.08056 HITS@10: 0.14974
+2022-12-06 04:29:15 INFO     h,r->t  |MRR: 0.6807913780212402 MR: 153.20322 HITS@1: 0.58652 HITS@3: 0.74358 HITS@10: 0.84926
+2022-12-06 04:29:15 INFO     average |MRR: 0.3802509903907776 MR: 851.55555 HITS@1: 0.31541 HITS@3: 0.41207 HITS@10: 0.4995
+2022-12-06 04:29:15 INFO     -----------------------------------------
+2022-12-06 04:29:15 INFO     [evaluation] finished! It takes 245.6228 sec s
+2022-12-06 04:29:19 INFO     [GPU 0] step: 5099, loss: 1.71175, reg: 9.3539e-01, speed: 0.40 steps/s, time: 249.90 s
+2022-12-06 04:29:19 INFO     sample: 2.731464, forward: 1.429782, backward: 0.081079, update: 0.031447
+2022-12-06 04:29:23 INFO     [GPU 0] step: 5199, loss: 1.71091, reg: 9.4799e-01, speed: 23.43 steps/s, time: 4.27 s
+2022-12-06 04:29:23 INFO     sample: 2.768612, forward: 1.401938, backward: 0.071187, update: 0.025698
+2022-12-06 04:29:28 INFO     [GPU 0] step: 5299, loss: 1.71268, reg: 9.5899e-01, speed: 23.29 steps/s, time: 4.29 s
+2022-12-06 04:29:28 INFO     sample: 2.780974, forward: 1.416456, backward: 0.070680, update: 0.025950
+2022-12-06 04:29:32 INFO     [GPU 0] step: 5399, loss: 1.73016, reg: 9.4375e-01, speed: 21.17 steps/s, time: 4.72 s
+2022-12-06 04:29:32 INFO     sample: 3.162978, forward: 1.447733, backward: 0.081566, update: 0.030961
+2022-12-06 04:29:37 INFO     [GPU 0] step: 5499, loss: 1.70954, reg: 9.3426e-01, speed: 23.32 steps/s, time: 4.29 s
+2022-12-06 04:29:37 INFO     sample: 2.780036, forward: 1.411661, backward: 0.070553, update: 0.025592
+2022-12-06 04:29:37 INFO     [evaluation] start...
+2022-12-06 04:33:42 INFO     -------------- valid result --------------
+2022-12-06 04:33:42 INFO     t,r->h  |MRR: 0.0824253037571907 MR: 1539.05044 HITS@1: 0.04644 HITS@3: 0.08532 HITS@10: 0.1517
+2022-12-06 04:33:42 INFO     h,r->t  |MRR: 0.6844706535339355 MR: 144.58804 HITS@1: 0.5913 HITS@3: 0.7467 HITS@10: 0.84862
+2022-12-06 04:33:42 INFO     average |MRR: 0.3834479749202728 MR: 841.81924 HITS@1: 0.31887000000000004 HITS@3: 0.41601 HITS@10: 0.50016
+2022-12-06 04:33:42 INFO     -----------------------------------------
+2022-12-06 04:33:42 INFO     [evaluation] finished! It takes 245.0445 sec s
+2022-12-06 04:33:46 INFO     [GPU 0] step: 5599, loss: 1.70559, reg: 9.4423e-01, speed: 0.40 steps/s, time: 249.30 s
+2022-12-06 04:33:46 INFO     sample: 2.720623, forward: 1.428485, backward: 0.077239, update: 0.028966
+2022-12-06 04:33:50 INFO     [GPU 0] step: 5699, loss: 1.71530, reg: 9.5151e-01, speed: 23.43 steps/s, time: 4.27 s
+2022-12-06 04:33:50 INFO     sample: 2.773476, forward: 1.397432, backward: 0.070664, update: 0.025860
+2022-12-06 04:33:55 INFO     [GPU 0] step: 5799, loss: 1.70584, reg: 9.6277e-01, speed: 21.12 steps/s, time: 4.74 s
+2022-12-06 04:33:55 INFO     sample: 3.218387, forward: 1.418557, backward: 0.071701, update: 0.026682
+2022-12-06 04:33:59 INFO     [GPU 0] step: 5899, loss: 1.71314, reg: 9.3357e-01, speed: 23.27 steps/s, time: 4.30 s
+2022-12-06 04:33:59 INFO     sample: 2.779339, forward: 1.410474, backward: 0.078182, update: 0.029374
+2022-12-06 04:34:04 INFO     [GPU 0] step: 5999, loss: 1.70727, reg: 9.4034e-01, speed: 23.42 steps/s, time: 4.27 s
+2022-12-06 04:34:04 INFO     sample: 2.763464, forward: 1.409526, backward: 0.071317, update: 0.025814
+2022-12-06 04:34:04 INFO     [evaluation] start...
+2022-12-06 04:38:09 INFO     -------------- valid result --------------
+2022-12-06 04:38:09 INFO     t,r->h  |MRR: 0.08078821748495102 MR: 1512.63166 HITS@1: 0.04554 HITS@3: 0.08148 HITS@10: 0.14976
+2022-12-06 04:38:09 INFO     h,r->t  |MRR: 0.6837995052337646 MR: 137.44972 HITS@1: 0.58664 HITS@3: 0.7508 HITS@10: 0.85136
+2022-12-06 04:38:09 INFO     average |MRR: 0.38229385018348694 MR: 825.04069 HITS@1: 0.31609000000000004 HITS@3: 0.41614 HITS@10: 0.50056
+2022-12-06 04:38:09 INFO     -----------------------------------------
+2022-12-06 04:38:10 INFO     [evaluation] finished! It takes 245.8811 sec s
+2022-12-06 04:38:14 INFO     [GPU 0] step: 6099, loss: 1.70424, reg: 9.4338e-01, speed: 0.40 steps/s, time: 250.13 s
+2022-12-06 04:38:14 INFO     sample: 2.735003, forward: 1.410159, backward: 0.075652, update: 0.028133
+2022-12-06 04:38:18 INFO     [GPU 0] step: 6199, loss: 1.71217, reg: 9.5569e-01, speed: 23.38 steps/s, time: 4.28 s
+2022-12-06 04:38:18 INFO     sample: 2.702955, forward: 1.471664, backward: 0.074564, update: 0.027665
+2022-12-06 04:38:23 INFO     [GPU 0] step: 6299, loss: 1.72179, reg: 9.7068e-01, speed: 21.14 steps/s, time: 4.73 s
+2022-12-06 04:38:23 INFO     sample: 3.159809, forward: 1.461842, backward: 0.079173, update: 0.030095
+2022-12-06 04:38:27 INFO     [GPU 0] step: 6399, loss: 1.70165, reg: 9.3084e-01, speed: 23.11 steps/s, time: 4.33 s
+2022-12-06 04:38:27 INFO     sample: 2.757848, forward: 1.452714, backward: 0.086556, update: 0.028974
+2022-12-06 04:38:31 INFO     [GPU 0] step: 6499, loss: 1.71191, reg: 9.3997e-01, speed: 23.19 steps/s, time: 4.31 s
+2022-12-06 04:38:31 INFO     sample: 2.810196, forward: 1.405202, backward: 0.071156, update: 0.025726
+2022-12-06 04:38:31 INFO     [evaluation] start...
+2022-12-06 04:42:36 INFO     -------------- valid result --------------
+2022-12-06 04:42:36 INFO     t,r->h  |MRR: 0.08378859609365463 MR: 1515.19466 HITS@1: 0.04862 HITS@3: 0.0864 HITS@10: 0.1504
+2022-12-06 04:42:36 INFO     h,r->t  |MRR: 0.6702749729156494 MR: 139.29824 HITS@1: 0.5695 HITS@3: 0.73784 HITS@10: 0.84972
+2022-12-06 04:42:36 INFO     average |MRR: 0.37703177332878113 MR: 827.2464500000001 HITS@1: 0.30906 HITS@3: 0.41212000000000004 HITS@10: 0.5000600000000001
+2022-12-06 04:42:36 INFO     -----------------------------------------
+2022-12-06 04:42:36 INFO     [evaluation] finished! It takes 244.8312 sec s
+2022-12-06 04:42:41 INFO     [GPU 0] step: 6599, loss: 1.70770, reg: 9.5793e-01, speed: 0.40 steps/s, time: 249.11 s
+2022-12-06 04:42:41 INFO     sample: 2.736050, forward: 1.425461, backward: 0.083165, update: 0.032744
+2022-12-06 04:42:45 INFO     [GPU 0] step: 6699, loss: 1.71229, reg: 9.6376e-01, speed: 23.28 steps/s, time: 4.30 s
+2022-12-06 04:42:45 INFO     sample: 2.782527, forward: 1.416336, backward: 0.071124, update: 0.025479
+2022-12-06 04:42:50 INFO     [GPU 0] step: 6799, loss: 1.71460, reg: 9.5681e-01, speed: 21.09 steps/s, time: 4.74 s
+2022-12-06 04:42:50 INFO     sample: 3.188861, forward: 1.444745, backward: 0.079113, update: 0.028934
+2022-12-06 04:42:54 INFO     [GPU 0] step: 6899, loss: 1.69503, reg: 9.2879e-01, speed: 23.15 steps/s, time: 4.32 s
+2022-12-06 04:42:54 INFO     sample: 2.803891, forward: 1.415667, backward: 0.072880, update: 0.026705
+2022-12-06 04:42:58 INFO     [GPU 0] step: 6999, loss: 1.71569, reg: 9.4521e-01, speed: 23.18 steps/s, time: 4.31 s
+2022-12-06 04:42:58 INFO     sample: 2.823663, forward: 1.392465, backward: 0.071519, update: 0.026567
+2022-12-06 04:42:58 INFO     [evaluation] start...
+2022-12-06 04:47:03 INFO     -------------- valid result --------------
+2022-12-06 04:47:03 INFO     t,r->h  |MRR: 0.08371900022029877 MR: 1485.61696 HITS@1: 0.04784 HITS@3: 0.08688 HITS@10: 0.15084
+2022-12-06 04:47:03 INFO     h,r->t  |MRR: 0.6567422747612 MR: 137.621 HITS@1: 0.54734 HITS@3: 0.73238 HITS@10: 0.84724
+2022-12-06 04:47:03 INFO     average |MRR: 0.37023064494132996 MR: 811.6189800000001 HITS@1: 0.29759 HITS@3: 0.40963 HITS@10: 0.49904
+2022-12-06 04:47:03 INFO     -----------------------------------------
+2022-12-06 04:47:04 INFO     [evaluation] finished! It takes 245.4880 sec s
+2022-12-06 04:47:08 INFO     [GPU 0] step: 7099, loss: 1.71684, reg: 9.5565e-01, speed: 0.40 steps/s, time: 249.75 s
+2022-12-06 04:47:08 INFO     sample: 2.759351, forward: 1.401237, backward: 0.075081, update: 0.027927
+2022-12-06 04:47:12 INFO     [GPU 0] step: 7199, loss: 1.71042, reg: 9.6296e-01, speed: 23.41 steps/s, time: 4.27 s
+2022-12-06 04:47:12 INFO     sample: 2.757564, forward: 1.417407, backward: 0.071079, update: 0.026028
+2022-12-06 04:47:17 INFO     [GPU 0] step: 7299, loss: 1.72270, reg: 9.5608e-01, speed: 20.90 steps/s, time: 4.79 s
+2022-12-06 04:47:17 INFO     sample: 3.225112, forward: 1.448664, backward: 0.080172, update: 0.030816
+2022-12-06 04:47:21 INFO     [GPU 0] step: 7399, loss: 1.69668, reg: 9.3414e-01, speed: 23.41 steps/s, time: 4.27 s
+2022-12-06 04:47:21 INFO     sample: 2.746477, forward: 1.423372, backward: 0.073500, update: 0.027442
+2022-12-06 04:47:26 INFO     [GPU 0] step: 7499, loss: 1.70247, reg: 9.4558e-01, speed: 23.59 steps/s, time: 4.24 s
+2022-12-06 04:47:26 INFO     sample: 2.686298, forward: 1.450348, backward: 0.074534, update: 0.027514
+2022-12-06 04:47:26 INFO     [evaluation] start...
+2022-12-06 04:51:31 INFO     -------------- valid result --------------
+2022-12-06 04:51:31 INFO     t,r->h  |MRR: 0.08231405168771744 MR: 1510.43032 HITS@1: 0.04652 HITS@3: 0.08524 HITS@10: 0.15024
+2022-12-06 04:51:31 INFO     h,r->t  |MRR: 0.6425060629844666 MR: 137.51874 HITS@1: 0.52864 HITS@3: 0.7216 HITS@10: 0.84314
+2022-12-06 04:51:31 INFO     average |MRR: 0.3624100685119629 MR: 823.97453 HITS@1: 0.28758 HITS@3: 0.40342 HITS@10: 0.49669
+2022-12-06 04:51:31 INFO     -----------------------------------------
+2022-12-06 04:51:31 INFO     [evaluation] finished! It takes 245.7510 sec s
+2022-12-06 04:51:36 INFO     [GPU 0] step: 7599, loss: 1.71303, reg: 9.5268e-01, speed: 0.40 steps/s, time: 250.01 s
+2022-12-06 04:51:36 INFO     sample: 2.738609, forward: 1.409821, backward: 0.080478, update: 0.033068
+2022-12-06 04:51:40 INFO     [GPU 0] step: 7699, loss: 1.70534, reg: 9.6291e-01, speed: 23.39 steps/s, time: 4.28 s
+2022-12-06 04:51:40 INFO     sample: 2.750828, forward: 1.419168, backward: 0.074879, update: 0.029895
+2022-12-06 04:51:45 INFO     [GPU 0] step: 7799, loss: 1.72517, reg: 9.4862e-01, speed: 20.99 steps/s, time: 4.76 s
+2022-12-06 04:51:45 INFO     sample: 3.187780, forward: 1.457013, backward: 0.084339, update: 0.033616
+2022-12-06 04:51:49 INFO     [GPU 0] step: 7899, loss: 1.71013, reg: 9.4209e-01, speed: 23.25 steps/s, time: 4.30 s
+2022-12-06 04:51:49 INFO     sample: 2.762654, forward: 1.438218, backward: 0.072755, update: 0.026398
+2022-12-06 04:51:53 INFO     [GPU 0] step: 7999, loss: 1.70550, reg: 9.5014e-01, speed: 23.36 steps/s, time: 4.28 s
+2022-12-06 04:51:53 INFO     sample: 2.774450, forward: 1.410080, backward: 0.070172, update: 0.025945
+2022-12-06 04:51:53 INFO     [evaluation] start...
+2022-12-06 04:55:57 INFO     -------------- valid result --------------
+2022-12-06 04:55:57 INFO     t,r->h  |MRR: 0.08590156584978104 MR: 1474.04676 HITS@1: 0.05042 HITS@3: 0.09 HITS@10: 0.15164
+2022-12-06 04:55:57 INFO     h,r->t  |MRR: 0.6133445501327515 MR: 139.52008 HITS@1: 0.49404 HITS@3: 0.6885 HITS@10: 0.83742
+2022-12-06 04:55:57 INFO     average |MRR: 0.34962305426597595 MR: 806.78342 HITS@1: 0.27222999999999997 HITS@3: 0.38925 HITS@10: 0.49453
+2022-12-06 04:55:57 INFO     -----------------------------------------
+2022-12-06 04:55:57 INFO     [evaluation] finished! It takes 243.7947 sec s
+2022-12-06 04:56:01 INFO     [GPU 0] step: 8099, loss: 1.69127, reg: 9.5674e-01, speed: 0.40 steps/s, time: 248.11 s
+2022-12-06 04:56:01 INFO     sample: 2.732880, forward: 1.459835, backward: 0.093259, update: 0.029460
+2022-12-06 04:56:06 INFO     [GPU 0] step: 8199, loss: 1.69869, reg: 9.6074e-01, speed: 23.19 steps/s, time: 4.31 s
+2022-12-06 04:56:06 INFO     sample: 2.780138, forward: 1.434873, backward: 0.071345, update: 0.025708
+2022-12-06 04:56:10 INFO     [GPU 0] step: 8299, loss: 1.71648, reg: 9.4601e-01, speed: 20.66 steps/s, time: 4.84 s
+2022-12-06 04:56:10 INFO     sample: 3.282827, forward: 1.440848, backward: 0.081373, update: 0.033626
+2022-12-06 04:56:15 INFO     [GPU 0] step: 8399, loss: 1.71563, reg: 9.4207e-01, speed: 22.94 steps/s, time: 4.36 s
+2022-12-06 04:56:15 INFO     sample: 2.730399, forward: 1.510108, backward: 0.084468, update: 0.033381
+2022-12-06 04:56:19 INFO     [GPU 0] step: 8499, loss: 1.69467, reg: 9.4709e-01, speed: 22.88 steps/s, time: 4.37 s
+2022-12-06 04:56:19 INFO     sample: 2.731945, forward: 1.515797, backward: 0.086833, update: 0.035055
+2022-12-06 04:56:19 INFO     [evaluation] start...
+2022-12-06 05:00:24 INFO     -------------- valid result --------------
+2022-12-06 05:00:24 INFO     t,r->h  |MRR: 0.08740498125553131 MR: 1483.60892 HITS@1: 0.05186 HITS@3: 0.09018 HITS@10: 0.15488
+2022-12-06 05:00:24 INFO     h,r->t  |MRR: 0.6095631718635559 MR: 141.15304 HITS@1: 0.48856 HITS@3: 0.68654 HITS@10: 0.83682
+2022-12-06 05:00:24 INFO     average |MRR: 0.348484069108963 MR: 812.3809799999999 HITS@1: 0.27021 HITS@3: 0.38836000000000004 HITS@10: 0.49585
+2022-12-06 05:00:24 INFO     -----------------------------------------
+2022-12-06 05:00:24 INFO     [evaluation] finished! It takes 244.8373 sec s
+2022-12-06 05:00:28 INFO     [GPU 0] step: 8599, loss: 1.71281, reg: 9.6195e-01, speed: 0.40 steps/s, time: 249.12 s
+2022-12-06 05:00:28 INFO     sample: 2.736381, forward: 1.432735, backward: 0.080043, update: 0.033151
+2022-12-06 05:00:33 INFO     [GPU 0] step: 8699, loss: 1.69823, reg: 9.6283e-01, speed: 20.63 steps/s, time: 4.85 s
+2022-12-06 05:00:33 INFO     sample: 3.304127, forward: 1.433757, backward: 0.077890, update: 0.030764
+2022-12-06 05:00:37 INFO     [GPU 0] step: 8799, loss: 1.71896, reg: 9.4138e-01, speed: 23.06 steps/s, time: 4.34 s
+2022-12-06 05:00:37 INFO     sample: 2.749920, forward: 1.441111, backward: 0.079114, update: 0.065935
+2022-12-06 05:00:42 INFO     [GPU 0] step: 8899, loss: 1.69856, reg: 9.3942e-01, speed: 23.37 steps/s, time: 4.28 s
+2022-12-06 05:00:42 INFO     sample: 2.785065, forward: 1.396658, backward: 0.070918, update: 0.025515
+2022-12-06 05:00:46 INFO     [GPU 0] step: 8999, loss: 1.70928, reg: 9.5350e-01, speed: 23.43 steps/s, time: 4.27 s
+2022-12-06 05:00:46 INFO     sample: 2.772224, forward: 1.399796, backward: 0.069962, update: 0.025039
+2022-12-06 05:00:46 INFO     [evaluation] start...
+2022-12-06 05:04:35 INFO     -------------- valid result --------------
+2022-12-06 05:04:35 INFO     t,r->h  |MRR: 0.08822779357433319 MR: 1474.99514 HITS@1: 0.05274 HITS@3: 0.09208 HITS@10: 0.1535
+2022-12-06 05:04:35 INFO     h,r->t  |MRR: 0.5988404154777527 MR: 135.12732 HITS@1: 0.47018 HITS@3: 0.68224 HITS@10: 0.8364
+2022-12-06 05:04:35 INFO     average |MRR: 0.34353411197662354 MR: 805.06123 HITS@1: 0.26145999999999997 HITS@3: 0.38715999999999995 HITS@10: 0.49495
+2022-12-06 05:04:35 INFO     -----------------------------------------
+2022-12-06 05:04:35 INFO     [evaluation] finished! It takes 229.1649 sec s
+2022-12-06 05:04:42 INFO     [GPU 0] step: 9099, loss: 1.69757, reg: 9.5663e-01, speed: 0.42 steps/s, time: 236.47 s
+2022-12-06 05:04:42 INFO     sample: 4.947394, forward: 2.239268, backward: 0.084024, update: 0.034292
+2022-12-06 05:04:50 INFO     [GPU 0] step: 9199, loss: 1.70958, reg: 9.6610e-01, speed: 13.40 steps/s, time: 7.47 s
+2022-12-06 05:04:50 INFO     sample: 5.140028, forward: 2.209237, backward: 0.081945, update: 0.033483
+2022-12-06 05:04:57 INFO     [GPU 0] step: 9299, loss: 1.71602, reg: 9.3460e-01, speed: 13.68 steps/s, time: 7.31 s
+2022-12-06 05:04:57 INFO     sample: 4.157896, forward: 3.035254, backward: 0.084140, update: 0.033613
+2022-12-06 05:05:05 INFO     [GPU 0] step: 9399, loss: 1.70617, reg: 9.4719e-01, speed: 13.75 steps/s, time: 7.27 s
+2022-12-06 05:05:05 INFO     sample: 3.915072, forward: 3.240865, backward: 0.083993, update: 0.033678
+2022-12-06 05:05:12 INFO     [GPU 0] step: 9499, loss: 1.70337, reg: 9.5438e-01, speed: 14.30 steps/s, time: 6.99 s
+2022-12-06 05:05:12 INFO     sample: 3.800074, forward: 3.073029, backward: 0.084746, update: 0.034149
+2022-12-06 05:05:12 INFO     [evaluation] start...
+2022-12-06 05:08:59 INFO     -------------- valid result --------------
+2022-12-06 05:08:59 INFO     t,r->h  |MRR: 0.0874483585357666 MR: 1466.97114 HITS@1: 0.05178 HITS@3: 0.09018 HITS@10: 0.1559
+2022-12-06 05:08:59 INFO     h,r->t  |MRR: 0.6132315993309021 MR: 136.2659 HITS@1: 0.48662 HITS@3: 0.70086 HITS@10: 0.8369
+2022-12-06 05:08:59 INFO     average |MRR: 0.35033997893333435 MR: 801.61852 HITS@1: 0.2692 HITS@3: 0.39552000000000004 HITS@10: 0.4964
+2022-12-06 05:08:59 INFO     -----------------------------------------
+2022-12-06 05:08:59 INFO     [evaluation] finished! It takes 227.2562 sec s
+2022-12-06 05:09:03 INFO     [GPU 0] step: 9599, loss: 1.70650, reg: 9.6604e-01, speed: 0.43 steps/s, time: 231.54 s
+2022-12-06 05:09:03 INFO     sample: 2.737917, forward: 1.435954, backward: 0.077546, update: 0.029520
+2022-12-06 05:09:08 INFO     [GPU 0] step: 9699, loss: 1.71340, reg: 9.6023e-01, speed: 20.86 steps/s, time: 4.79 s
+2022-12-06 05:09:08 INFO     sample: 3.269674, forward: 1.415641, backward: 0.078863, update: 0.030234
+2022-12-06 05:09:12 INFO     [GPU 0] step: 9799, loss: 1.70860, reg: 9.3457e-01, speed: 23.36 steps/s, time: 4.28 s
+2022-12-06 05:09:12 INFO     sample: 2.747884, forward: 1.429008, backward: 0.075232, update: 0.028101
+2022-12-06 05:09:16 INFO     [GPU 0] step: 9899, loss: 1.70175, reg: 9.4647e-01, speed: 23.49 steps/s, time: 4.26 s
+2022-12-06 05:09:16 INFO     sample: 2.729376, forward: 1.414722, backward: 0.073434, update: 0.039017
+2022-12-06 05:09:21 INFO     [GPU 0] step: 9999, loss: 1.70199, reg: 9.4897e-01, speed: 23.45 steps/s, time: 4.26 s
+2022-12-06 05:09:21 INFO     sample: 2.741776, forward: 1.421218, backward: 0.074166, update: 0.026955
+2022-12-06 05:09:21 INFO     [evaluation] start...
+2022-12-06 05:13:25 INFO     -------------- valid result --------------
+2022-12-06 05:13:25 INFO     t,r->h  |MRR: 0.08906392753124237 MR: 1456.98264 HITS@1: 0.053 HITS@3: 0.09224 HITS@10: 0.15814
+2022-12-06 05:13:25 INFO     h,r->t  |MRR: 0.6407678723335266 MR: 133.29422 HITS@1: 0.53 HITS@3: 0.7123 HITS@10: 0.84552
+2022-12-06 05:13:25 INFO     average |MRR: 0.3649159073829651 MR: 795.13843 HITS@1: 0.29150000000000004 HITS@3: 0.40227 HITS@10: 0.50183
+2022-12-06 05:13:25 INFO     -----------------------------------------
+2022-12-06 05:13:25 INFO     [evaluation] finished! It takes 244.4552 sec s
+2022-12-06 05:13:29 INFO     [GPU 0] step: 10099, loss: 1.70827, reg: 9.6287e-01, speed: 0.40 steps/s, time: 248.72 s
+2022-12-06 05:13:29 INFO     sample: 2.724494, forward: 1.430879, backward: 0.075723, update: 0.028221
+2022-12-06 05:13:34 INFO     [GPU 0] step: 10199, loss: 1.71869, reg: 9.5846e-01, speed: 20.95 steps/s, time: 4.77 s
+2022-12-06 05:13:34 INFO     sample: 3.239931, forward: 1.418122, backward: 0.085792, update: 0.029405
+2022-12-06 05:13:39 INFO     [GPU 0] step: 10299, loss: 1.71227, reg: 9.3160e-01, speed: 23.04 steps/s, time: 4.34 s
+2022-12-06 05:13:39 INFO     sample: 2.820767, forward: 1.406497, backward: 0.084675, update: 0.027190
+2022-12-06 05:13:43 INFO     [GPU 0] step: 10399, loss: 1.70841, reg: 9.5229e-01, speed: 23.25 steps/s, time: 4.30 s
+2022-12-06 05:13:43 INFO     sample: 2.805599, forward: 1.396366, backward: 0.072443, update: 0.025766
+2022-12-06 05:13:47 INFO     [GPU 0] step: 10499, loss: 1.70127, reg: 9.5443e-01, speed: 23.20 steps/s, time: 4.31 s
+2022-12-06 05:13:47 INFO     sample: 2.827573, forward: 1.384839, backward: 0.071652, update: 0.026169
+2022-12-06 05:13:47 INFO     [evaluation] start...
+2022-12-06 05:17:51 INFO     -------------- valid result --------------
+2022-12-06 05:17:51 INFO     t,r->h  |MRR: 0.08766255527734756 MR: 1452.72714 HITS@1: 0.05054 HITS@3: 0.0914 HITS@10: 0.1567
+2022-12-06 05:17:51 INFO     h,r->t  |MRR: 0.650397002696991 MR: 133.66772 HITS@1: 0.53986 HITS@3: 0.72476 HITS@10: 0.8508
+2022-12-06 05:17:51 INFO     average |MRR: 0.36902979016304016 MR: 793.1974299999999 HITS@1: 0.2952 HITS@3: 0.40808 HITS@10: 0.50375
+2022-12-06 05:17:51 INFO     -----------------------------------------
+2022-12-06 05:17:51 INFO     [evaluation] finished! It takes 244.0081 sec s
+2022-12-06 05:17:55 INFO     [GPU 0] step: 10599, loss: 1.68822, reg: 9.6138e-01, speed: 0.40 steps/s, time: 248.28 s
+2022-12-06 05:17:55 INFO     sample: 2.730124, forward: 1.437955, backward: 0.075493, update: 0.028286
+2022-12-06 05:18:00 INFO     [GPU 0] step: 10699, loss: 1.73504, reg: 9.5249e-01, speed: 20.85 steps/s, time: 4.80 s
+2022-12-06 05:18:00 INFO     sample: 3.214287, forward: 1.460365, backward: 0.088704, update: 0.032970
+2022-12-06 05:18:04 INFO     [GPU 0] step: 10799, loss: 1.69011, reg: 9.3168e-01, speed: 23.49 steps/s, time: 4.26 s
+2022-12-06 05:18:04 INFO     sample: 2.717141, forward: 1.441554, backward: 0.072060, update: 0.026263
+2022-12-06 05:18:09 INFO     [GPU 0] step: 10899, loss: 1.69983, reg: 9.5111e-01, speed: 23.34 steps/s, time: 4.28 s
+2022-12-06 05:18:09 INFO     sample: 2.708304, forward: 1.473261, backward: 0.074487, update: 0.028403
+2022-12-06 05:18:13 INFO     [GPU 0] step: 10999, loss: 1.70453, reg: 9.6244e-01, speed: 23.45 steps/s, time: 4.26 s
+2022-12-06 05:18:13 INFO     sample: 2.762247, forward: 1.402018, backward: 0.072559, update: 0.026315
+2022-12-06 05:18:13 INFO     [evaluation] start...
+2022-12-06 05:22:18 INFO     -------------- valid result --------------
+2022-12-06 05:22:18 INFO     t,r->h  |MRR: 0.08659829944372177 MR: 1438.83334 HITS@1: 0.05056 HITS@3: 0.08896 HITS@10: 0.15496
+2022-12-06 05:22:18 INFO     h,r->t  |MRR: 0.6745356917381287 MR: 137.79216 HITS@1: 0.574 HITS@3: 0.7428 HITS@10: 0.85428
+2022-12-06 05:22:18 INFO     average |MRR: 0.3805669844150543 MR: 788.3127499999999 HITS@1: 0.31228 HITS@3: 0.41588 HITS@10: 0.5046200000000001
+2022-12-06 05:22:18 INFO     -----------------------------------------
+2022-12-06 05:22:18 INFO     [evaluation] finished! It takes 245.2233 sec s
+2022-12-06 05:22:22 INFO     [GPU 0] step: 11099, loss: 1.70404, reg: 9.6554e-01, speed: 0.40 steps/s, time: 249.47 s
+2022-12-06 05:22:22 INFO     sample: 2.691065, forward: 1.444711, backward: 0.080271, update: 0.030644
+2022-12-06 05:22:27 INFO     [GPU 0] step: 11199, loss: 1.71857, reg: 9.4388e-01, speed: 20.96 steps/s, time: 4.77 s
+2022-12-06 05:22:27 INFO     sample: 3.253990, forward: 1.413194, backward: 0.075689, update: 0.028111
+2022-12-06 05:22:32 INFO     [GPU 0] step: 11299, loss: 1.70156, reg: 9.3920e-01, speed: 23.30 steps/s, time: 4.29 s
+2022-12-06 05:22:32 INFO     sample: 2.784243, forward: 1.409822, backward: 0.071586, update: 0.026448
+2022-12-06 05:22:36 INFO     [GPU 0] step: 11399, loss: 1.70843, reg: 9.5213e-01, speed: 23.43 steps/s, time: 4.27 s
+2022-12-06 05:22:36 INFO     sample: 2.767956, forward: 1.403200, backward: 0.070990, update: 0.025384
+2022-12-06 05:22:40 INFO     [GPU 0] step: 11499, loss: 1.70361, reg: 9.6158e-01, speed: 23.17 steps/s, time: 4.32 s
+2022-12-06 05:22:40 INFO     sample: 2.765349, forward: 1.449262, backward: 0.072790, update: 0.028082
+2022-12-06 05:22:40 INFO     [evaluation] start...
+2022-12-06 05:26:44 INFO     -------------- valid result --------------
+2022-12-06 05:26:44 INFO     t,r->h  |MRR: 0.09027595072984695 MR: 1422.65174 HITS@1: 0.0536 HITS@3: 0.09304 HITS@10: 0.1606
+2022-12-06 05:26:44 INFO     h,r->t  |MRR: 0.677740216255188 MR: 126.57236 HITS@1: 0.57466 HITS@3: 0.74956 HITS@10: 0.85864
+2022-12-06 05:26:44 INFO     average |MRR: 0.3840080797672272 MR: 774.61205 HITS@1: 0.31412999999999996 HITS@3: 0.4213 HITS@10: 0.50962
+2022-12-06 05:26:44 INFO     -----------------------------------------
+2022-12-06 05:26:44 INFO     [evaluation] finished! It takes 243.6844 sec s
+2022-12-06 05:26:49 INFO     [GPU 0] step: 11599, loss: 1.70061, reg: 9.6605e-01, speed: 0.40 steps/s, time: 248.48 s
+2022-12-06 05:26:49 INFO     sample: 3.202321, forward: 1.483669, backward: 0.082485, update: 0.029032
+2022-12-06 05:26:53 INFO     [GPU 0] step: 11699, loss: 1.73717, reg: 9.3958e-01, speed: 23.01 steps/s, time: 4.35 s
+2022-12-06 05:26:53 INFO     sample: 2.744098, forward: 1.480917, backward: 0.087295, update: 0.033633
+2022-12-06 05:26:57 INFO     [GPU 0] step: 11799, loss: 1.71129, reg: 9.4551e-01, speed: 23.03 steps/s, time: 4.34 s
+2022-12-06 05:26:57 INFO     sample: 2.762732, forward: 1.453256, backward: 0.087794, update: 0.036923
+2022-12-06 05:27:02 INFO     [GPU 0] step: 11899, loss: 1.70935, reg: 9.5723e-01, speed: 23.11 steps/s, time: 4.33 s
+2022-12-06 05:27:02 INFO     sample: 2.721202, forward: 1.484113, backward: 0.085391, update: 0.035873
+2022-12-06 05:27:06 INFO     [GPU 0] step: 11999, loss: 1.68926, reg: 9.6052e-01, speed: 23.02 steps/s, time: 4.34 s
+2022-12-06 05:27:06 INFO     sample: 2.735409, forward: 1.487970, backward: 0.084052, update: 0.035023
+2022-12-06 05:27:06 INFO     [evaluation] start...
+2022-12-06 05:31:12 INFO     -------------- valid result --------------
+2022-12-06 05:31:12 INFO     t,r->h  |MRR: 0.08610004186630249 MR: 1436.97922 HITS@1: 0.04862 HITS@3: 0.09018 HITS@10: 0.1576
+2022-12-06 05:31:12 INFO     h,r->t  |MRR: 0.6892006993293762 MR: 136.44134 HITS@1: 0.59104 HITS@3: 0.7573 HITS@10: 0.85926
+2022-12-06 05:31:12 INFO     average |MRR: 0.38765037059783936 MR: 786.71028 HITS@1: 0.31983 HITS@3: 0.42374 HITS@10: 0.50843
+2022-12-06 05:31:12 INFO     -----------------------------------------
+2022-12-06 05:31:12 INFO     [evaluation] finished! It takes 246.4765 sec s
+2022-12-06 05:31:17 INFO     [GPU 0] step: 12099, loss: 1.70507, reg: 9.6089e-01, speed: 0.40 steps/s, time: 251.24 s
+2022-12-06 05:31:17 INFO     sample: 3.175964, forward: 1.466479, backward: 0.082396, update: 0.032990
+2022-12-06 05:31:22 INFO     [GPU 0] step: 12199, loss: 1.73555, reg: 9.3592e-01, speed: 23.19 steps/s, time: 4.31 s
+2022-12-06 05:31:22 INFO     sample: 2.708730, forward: 1.481905, backward: 0.086809, update: 0.033370
+2022-12-06 05:31:26 INFO     [GPU 0] step: 12299, loss: 1.69975, reg: 9.4628e-01, speed: 23.12 steps/s, time: 4.32 s
+2022-12-06 05:31:26 INFO     sample: 2.843700, forward: 1.382605, backward: 0.071852, update: 0.026084
+2022-12-06 05:31:30 INFO     [GPU 0] step: 12399, loss: 1.70618, reg: 9.5559e-01, speed: 23.20 steps/s, time: 4.31 s
+2022-12-06 05:31:30 INFO     sample: 2.819530, forward: 1.392152, backward: 0.071797, update: 0.026155
+2022-12-06 05:31:34 INFO     [GPU 0] step: 12499, loss: 1.69685, reg: 9.6541e-01, speed: 23.30 steps/s, time: 4.29 s
+2022-12-06 05:31:34 INFO     sample: 2.830242, forward: 1.365369, backward: 0.070655, update: 0.025307
+2022-12-06 05:31:34 INFO     [evaluation] start...
+2022-12-06 05:35:37 INFO     -------------- valid result --------------
+2022-12-06 05:35:37 INFO     t,r->h  |MRR: 0.08865977823734283 MR: 1421.05532 HITS@1: 0.0511 HITS@3: 0.09154 HITS@10: 0.15992
+2022-12-06 05:35:37 INFO     h,r->t  |MRR: 0.6890897750854492 MR: 132.7352 HITS@1: 0.58488 HITS@3: 0.76444 HITS@10: 0.86254
+2022-12-06 05:35:37 INFO     average |MRR: 0.38887476921081543 MR: 776.89526 HITS@1: 0.31799 HITS@3: 0.42799 HITS@10: 0.51123
+2022-12-06 05:35:37 INFO     -----------------------------------------
+2022-12-06 05:35:37 INFO     [evaluation] finished! It takes 242.8262 sec s
+2022-12-06 05:35:42 INFO     [GPU 0] step: 12599, loss: 1.71908, reg: 9.5874e-01, speed: 0.40 steps/s, time: 247.59 s
+2022-12-06 05:35:42 INFO     sample: 3.200538, forward: 1.437681, backward: 0.082270, update: 0.046312
+2022-12-06 05:35:46 INFO     [GPU 0] step: 12699, loss: 1.72400, reg: 9.3488e-01, speed: 23.34 steps/s, time: 4.28 s
+2022-12-06 05:35:46 INFO     sample: 2.722536, forward: 1.452887, backward: 0.078281, update: 0.029777
+2022-12-06 05:35:51 INFO     [GPU 0] step: 12799, loss: 1.70844, reg: 9.5134e-01, speed: 23.61 steps/s, time: 4.24 s
+2022-12-06 05:35:51 INFO     sample: 2.673539, forward: 1.461826, backward: 0.073240, update: 0.026169
+2022-12-06 05:35:55 INFO     [GPU 0] step: 12899, loss: 1.69960, reg: 9.5604e-01, speed: 23.48 steps/s, time: 4.26 s
+2022-12-06 05:35:55 INFO     sample: 2.708774, forward: 1.448588, backward: 0.073778, update: 0.026902
+2022-12-06 05:35:59 INFO     [GPU 0] step: 12999, loss: 1.71431, reg: 9.6419e-01, speed: 23.61 steps/s, time: 4.24 s
+2022-12-06 05:35:59 INFO     sample: 2.679286, forward: 1.457304, backward: 0.072171, update: 0.026318
+2022-12-06 05:35:59 INFO     [evaluation] start...
+2022-12-06 05:40:03 INFO     -------------- valid result --------------
+2022-12-06 05:40:03 INFO     t,r->h  |MRR: 0.08576264977455139 MR: 1430.19286 HITS@1: 0.04954 HITS@3: 0.0883 HITS@10: 0.15436
+2022-12-06 05:40:03 INFO     h,r->t  |MRR: 0.7057299017906189 MR: 137.40336 HITS@1: 0.61444 HITS@3: 0.76836 HITS@10: 0.86586
+2022-12-06 05:40:03 INFO     average |MRR: 0.39574629068374634 MR: 783.7981100000001 HITS@1: 0.33199 HITS@3: 0.42833000000000004 HITS@10: 0.51011
+2022-12-06 05:40:03 INFO     -----------------------------------------
+2022-12-06 05:40:03 INFO     [evaluation] finished! It takes 244.4286 sec s
+2022-12-06 05:40:08 INFO     [GPU 0] step: 13099, loss: 1.72468, reg: 9.5506e-01, speed: 0.40 steps/s, time: 249.21 s
+2022-12-06 05:40:08 INFO     sample: 3.168852, forward: 1.493871, backward: 0.085926, update: 0.032576
+2022-12-06 05:40:13 INFO     [GPU 0] step: 13199, loss: 1.71043, reg: 9.3682e-01, speed: 23.22 steps/s, time: 4.31 s
+2022-12-06 05:40:13 INFO     sample: 2.790756, forward: 1.417528, backward: 0.072357, update: 0.026274
+2022-12-06 05:40:17 INFO     [GPU 0] step: 13299, loss: 1.70757, reg: 9.5080e-01, speed: 23.24 steps/s, time: 4.30 s
+2022-12-06 05:40:17 INFO     sample: 2.820809, forward: 1.386524, backward: 0.070311, update: 0.025150
+2022-12-06 05:40:21 INFO     [GPU 0] step: 13399, loss: 1.69767, reg: 9.5850e-01, speed: 23.29 steps/s, time: 4.29 s
+2022-12-06 05:40:21 INFO     sample: 2.815508, forward: 1.382934, backward: 0.070392, update: 0.025305
+2022-12-06 05:40:25 INFO     [GPU 0] step: 13499, loss: 1.73104, reg: 9.6972e-01, speed: 23.31 steps/s, time: 4.29 s
+2022-12-06 05:40:25 INFO     sample: 2.795539, forward: 1.397294, backward: 0.070850, update: 0.025911
+2022-12-06 05:40:25 INFO     [evaluation] start...
+2022-12-06 05:44:31 INFO     -------------- valid result --------------
+2022-12-06 05:44:31 INFO     t,r->h  |MRR: 0.08812738955020905 MR: 1436.427 HITS@1: 0.05186 HITS@3: 0.09152 HITS@10: 0.15582
+2022-12-06 05:44:31 INFO     h,r->t  |MRR: 0.69940584897995 MR: 129.7638 HITS@1: 0.60636 HITS@3: 0.76258 HITS@10: 0.86374
+2022-12-06 05:44:31 INFO     average |MRR: 0.3937666118144989 MR: 783.0953999999999 HITS@1: 0.32911 HITS@3: 0.42705000000000004 HITS@10: 0.50978
+2022-12-06 05:44:31 INFO     -----------------------------------------
+2022-12-06 05:44:32 INFO     [evaluation] finished! It takes 246.1539 sec s
+2022-12-06 05:44:36 INFO     [GPU 0] step: 13599, loss: 1.72424, reg: 9.5066e-01, speed: 0.40 steps/s, time: 250.95 s
+2022-12-06 05:44:36 INFO     sample: 3.212492, forward: 1.462001, backward: 0.091265, update: 0.031553
+2022-12-06 05:44:41 INFO     [GPU 0] step: 13699, loss: 1.70753, reg: 9.3507e-01, speed: 23.29 steps/s, time: 4.29 s
+2022-12-06 05:44:41 INFO     sample: 2.797194, forward: 1.400038, backward: 0.070871, update: 0.025544
+2022-12-06 05:44:45 INFO     [GPU 0] step: 13799, loss: 1.68901, reg: 9.4625e-01, speed: 23.34 steps/s, time: 4.28 s
+2022-12-06 05:44:45 INFO     sample: 2.793464, forward: 1.394668, backward: 0.070692, update: 0.025335
+2022-12-06 05:44:49 INFO     [GPU 0] step: 13899, loss: 1.68840, reg: 9.5257e-01, speed: 23.23 steps/s, time: 4.31 s
+2022-12-06 05:44:49 INFO     sample: 2.794629, forward: 1.412495, backward: 0.071364, update: 0.026660
+2022-12-06 05:44:54 INFO     [GPU 0] step: 13999, loss: 1.72057, reg: 9.6580e-01, speed: 23.22 steps/s, time: 4.31 s
+2022-12-06 05:44:54 INFO     sample: 2.859651, forward: 1.349546, backward: 0.071145, update: 0.026067
+2022-12-06 05:44:54 INFO     [evaluation] start...
+2022-12-06 05:48:59 INFO     -------------- valid result --------------
+2022-12-06 05:48:59 INFO     t,r->h  |MRR: 0.08616068214178085 MR: 1424.76794 HITS@1: 0.04832 HITS@3: 0.08974 HITS@10: 0.15842
+2022-12-06 05:48:59 INFO     h,r->t  |MRR: 0.7042633891105652 MR: 121.38806 HITS@1: 0.60964 HITS@3: 0.76978 HITS@10: 0.87018
+2022-12-06 05:48:59 INFO     average |MRR: 0.3952120244503021 MR: 773.078 HITS@1: 0.32898 HITS@3: 0.42976000000000003 HITS@10: 0.5143
+2022-12-06 05:48:59 INFO     -----------------------------------------
+2022-12-06 05:48:59 INFO     [evaluation] finished! It takes 245.2815 sec s
+2022-12-06 05:49:04 INFO     [GPU 0] step: 14099, loss: 1.72514, reg: 9.3834e-01, speed: 0.40 steps/s, time: 250.04 s
+2022-12-06 05:49:04 INFO     sample: 3.185072, forward: 1.447339, backward: 0.077665, update: 0.042565
+2022-12-06 05:49:08 INFO     [GPU 0] step: 14199, loss: 1.70181, reg: 9.4147e-01, speed: 23.39 steps/s, time: 4.28 s
+2022-12-06 05:49:08 INFO     sample: 2.778583, forward: 1.400336, backward: 0.070901, update: 0.025540
+2022-12-06 05:49:12 INFO     [GPU 0] step: 14299, loss: 1.69219, reg: 9.5038e-01, speed: 23.33 steps/s, time: 4.29 s
+2022-12-06 05:49:12 INFO     sample: 2.764863, forward: 1.423487, backward: 0.070636, update: 0.026523
+2022-12-06 05:49:16 INFO     [GPU 0] step: 14399, loss: 1.69995, reg: 9.6255e-01, speed: 23.48 steps/s, time: 4.26 s
+2022-12-06 05:49:16 INFO     sample: 2.757589, forward: 1.405704, backward: 0.070411, update: 0.025217
+2022-12-06 05:49:21 INFO     [GPU 0] step: 14499, loss: 1.70984, reg: 9.6500e-01, speed: 20.91 steps/s, time: 4.78 s
+2022-12-06 05:49:21 INFO     sample: 3.277115, forward: 1.399851, backward: 0.077952, update: 0.026799
+2022-12-06 05:49:21 INFO     [evaluation] start...
+2022-12-06 05:53:24 INFO     -------------- valid result --------------
+2022-12-06 05:53:24 INFO     t,r->h  |MRR: 0.08229368180036545 MR: 1429.50782 HITS@1: 0.04494 HITS@3: 0.08524 HITS@10: 0.1536
+2022-12-06 05:53:24 INFO     h,r->t  |MRR: 0.7104743123054504 MR: 126.81544 HITS@1: 0.61782 HITS@3: 0.7739 HITS@10: 0.87296
+2022-12-06 05:53:24 INFO     average |MRR: 0.39638400077819824 MR: 778.1616300000001 HITS@1: 0.33138 HITS@3: 0.42957 HITS@10: 0.51328
+2022-12-06 05:53:24 INFO     -----------------------------------------
+2022-12-06 05:53:25 INFO     [evaluation] finished! It takes 243.4812 sec s
+2022-12-06 05:53:29 INFO     [GPU 0] step: 14599, loss: 1.74503, reg: 9.4173e-01, speed: 0.40 steps/s, time: 247.76 s
+2022-12-06 05:53:29 INFO     sample: 2.728891, forward: 1.431509, backward: 0.084159, update: 0.033515
+2022-12-06 05:53:33 INFO     [GPU 0] step: 14699, loss: 1.70127, reg: 9.4307e-01, speed: 23.28 steps/s, time: 4.30 s
+2022-12-06 05:53:33 INFO     sample: 2.745338, forward: 1.438828, backward: 0.079741, update: 0.031579
+2022-12-06 05:53:38 INFO     [GPU 0] step: 14799, loss: 1.70557, reg: 9.5495e-01, speed: 23.28 steps/s, time: 4.29 s
+2022-12-06 05:53:38 INFO     sample: 2.761512, forward: 1.425170, backward: 0.077289, update: 0.030452
+2022-12-06 05:53:42 INFO     [GPU 0] step: 14899, loss: 1.69745, reg: 9.5922e-01, speed: 23.19 steps/s, time: 4.31 s
+2022-12-06 05:53:42 INFO     sample: 2.764580, forward: 1.437444, backward: 0.078350, update: 0.031298
+2022-12-06 05:53:47 INFO     [GPU 0] step: 14999, loss: 1.70673, reg: 9.6057e-01, speed: 20.98 steps/s, time: 4.77 s
+2022-12-06 05:53:47 INFO     sample: 3.199083, forward: 1.459535, backward: 0.077412, update: 0.030432
+2022-12-06 05:53:47 INFO     [evaluation] start...
+2022-12-06 05:57:48 INFO     -------------- valid result --------------
+2022-12-06 05:57:48 INFO     t,r->h  |MRR: 0.08825261890888214 MR: 1399.97402 HITS@1: 0.05126 HITS@3: 0.0913 HITS@10: 0.15964
+2022-12-06 05:57:48 INFO     h,r->t  |MRR: 0.7074477076530457 MR: 122.63066 HITS@1: 0.6139 HITS@3: 0.77284 HITS@10: 0.87014
+2022-12-06 05:57:48 INFO     average |MRR: 0.3978501558303833 MR: 761.3023400000001 HITS@1: 0.33258 HITS@3: 0.43207 HITS@10: 0.5148900000000001
+2022-12-06 05:57:48 INFO     -----------------------------------------
+2022-12-06 05:57:49 INFO     [evaluation] finished! It takes 242.0490 sec s
+2022-12-06 05:57:53 INFO     [GPU 0] step: 15099, loss: 1.72484, reg: 9.2953e-01, speed: 0.41 steps/s, time: 246.36 s
+2022-12-06 05:57:53 INFO     sample: 2.727642, forward: 1.459747, backward: 0.092669, update: 0.033767
+2022-12-06 05:57:57 INFO     [GPU 0] step: 15199, loss: 1.70518, reg: 9.4300e-01, speed: 23.24 steps/s, time: 4.30 s
+2022-12-06 05:57:57 INFO     sample: 2.823889, forward: 1.382964, backward: 0.070593, update: 0.025501
+2022-12-06 05:58:02 INFO     [GPU 0] step: 15299, loss: 1.68564, reg: 9.5831e-01, speed: 23.27 steps/s, time: 4.30 s
+2022-12-06 05:58:02 INFO     sample: 2.817326, forward: 1.383518, backward: 0.070389, update: 0.025575
+2022-12-06 05:58:06 INFO     [GPU 0] step: 15399, loss: 1.71716, reg: 9.5863e-01, speed: 23.29 steps/s, time: 4.29 s
+2022-12-06 05:58:06 INFO     sample: 2.836011, forward: 1.361505, backward: 0.070798, update: 0.025634
+2022-12-06 05:58:11 INFO     [GPU 0] step: 15499, loss: 1.72247, reg: 9.6100e-01, speed: 20.84 steps/s, time: 4.80 s
+2022-12-06 05:58:11 INFO     sample: 3.218490, forward: 1.452577, backward: 0.082849, update: 0.043378
+2022-12-06 05:58:11 INFO     [evaluation] start...
+2022-12-06 06:02:17 INFO     -------------- valid result --------------
+2022-12-06 06:02:17 INFO     t,r->h  |MRR: 0.08711078763008118 MR: 1421.65756 HITS@1: 0.04856 HITS@3: 0.09128 HITS@10: 0.15954
+2022-12-06 06:02:17 INFO     h,r->t  |MRR: 0.6933496594429016 MR: 124.85318 HITS@1: 0.59328 HITS@3: 0.76152 HITS@10: 0.8684
+2022-12-06 06:02:17 INFO     average |MRR: 0.3902302384376526 MR: 773.2553700000001 HITS@1: 0.32092000000000004 HITS@3: 0.4264 HITS@10: 0.5139699999999999
+2022-12-06 06:02:17 INFO     -----------------------------------------
+2022-12-06 06:02:17 INFO     [evaluation] finished! It takes 246.7080 sec s
+2022-12-06 06:02:22 INFO     [GPU 0] step: 15599, loss: 1.71697, reg: 9.3471e-01, speed: 0.40 steps/s, time: 250.97 s
+2022-12-06 06:02:22 INFO     sample: 2.753873, forward: 1.408797, backward: 0.073382, update: 0.026662
+2022-12-06 06:02:26 INFO     [GPU 0] step: 15699, loss: 1.69229, reg: 9.4506e-01, speed: 23.40 steps/s, time: 4.27 s
+2022-12-06 06:02:26 INFO     sample: 2.761670, forward: 1.416224, backward: 0.070099, update: 0.025109
+2022-12-06 06:02:30 INFO     [GPU 0] step: 15799, loss: 1.69448, reg: 9.5594e-01, speed: 23.28 steps/s, time: 4.29 s
+2022-12-06 06:02:30 INFO     sample: 2.768664, forward: 1.425062, backward: 0.073006, update: 0.027391
+2022-12-06 06:02:35 INFO     [GPU 0] step: 15899, loss: 1.72361, reg: 9.6127e-01, speed: 23.38 steps/s, time: 4.28 s
+2022-12-06 06:02:35 INFO     sample: 2.777463, forward: 1.399186, backward: 0.072783, update: 0.026918
+2022-12-06 06:02:39 INFO     [GPU 0] step: 15999, loss: 1.73726, reg: 9.5067e-01, speed: 20.89 steps/s, time: 4.79 s
+2022-12-06 06:02:39 INFO     sample: 3.243296, forward: 1.430900, backward: 0.081350, update: 0.031107
+2022-12-06 06:02:39 INFO     [evaluation] start...
+2022-12-06 06:06:46 INFO     -------------- valid result --------------
+2022-12-06 06:06:46 INFO     t,r->h  |MRR: 0.08913169056177139 MR: 1414.45902 HITS@1: 0.05208 HITS@3: 0.09148 HITS@10: 0.16062
+2022-12-06 06:06:46 INFO     h,r->t  |MRR: 0.6890192031860352 MR: 127.3474 HITS@1: 0.58546 HITS@3: 0.76366 HITS@10: 0.86846
+2022-12-06 06:06:46 INFO     average |MRR: 0.38907545804977417 MR: 770.90321 HITS@1: 0.31877 HITS@3: 0.42757 HITS@10: 0.51454
+2022-12-06 06:06:46 INFO     -----------------------------------------
+2022-12-06 06:06:46 INFO     [evaluation] finished! It takes 246.7780 sec s
+2022-12-06 06:06:50 INFO     [GPU 0] step: 16099, loss: 1.70121, reg: 9.3800e-01, speed: 0.40 steps/s, time: 251.11 s
+2022-12-06 06:06:50 INFO     sample: 2.750074, forward: 1.451927, backward: 0.094424, update: 0.035680
+2022-12-06 06:06:55 INFO     [GPU 0] step: 16199, loss: 1.69984, reg: 9.4930e-01, speed: 23.05 steps/s, time: 4.34 s
+2022-12-06 06:06:55 INFO     sample: 2.771137, forward: 1.451228, backward: 0.082088, update: 0.033154
+2022-12-06 06:06:59 INFO     [GPU 0] step: 16299, loss: 1.68846, reg: 9.5587e-01, speed: 23.01 steps/s, time: 4.35 s
+2022-12-06 06:06:59 INFO     sample: 2.742509, forward: 1.485701, backward: 0.082761, update: 0.033881
+2022-12-06 06:07:03 INFO     [GPU 0] step: 16399, loss: 1.72861, reg: 9.6307e-01, speed: 23.14 steps/s, time: 4.32 s
+2022-12-06 06:07:03 INFO     sample: 2.737689, forward: 1.467827, backward: 0.081544, update: 0.033499
+2022-12-06 06:07:08 INFO     [GPU 0] step: 16499, loss: 1.71182, reg: 9.4060e-01, speed: 20.84 steps/s, time: 4.80 s
+2022-12-06 06:07:08 INFO     sample: 3.174963, forward: 1.480110, backward: 0.093575, update: 0.049648
+2022-12-06 06:07:08 INFO     [evaluation] start...
+2022-12-06 06:11:14 INFO     -------------- valid result --------------
+2022-12-06 06:11:14 INFO     t,r->h  |MRR: 0.08491091430187225 MR: 1414.36096 HITS@1: 0.04858 HITS@3: 0.08876 HITS@10: 0.15246
+2022-12-06 06:11:14 INFO     h,r->t  |MRR: 0.663019061088562 MR: 123.69472 HITS@1: 0.55428 HITS@3: 0.7339 HITS@10: 0.86468
+2022-12-06 06:11:14 INFO     average |MRR: 0.37396499514579773 MR: 769.02784 HITS@1: 0.30143 HITS@3: 0.41133 HITS@10: 0.50857
+2022-12-06 06:11:14 INFO     -----------------------------------------
+2022-12-06 06:11:14 INFO     [evaluation] finished! It takes 246.1996 sec s
+2022-12-06 06:11:19 INFO     [GPU 0] step: 16599, loss: 1.69577, reg: 9.4029e-01, speed: 0.40 steps/s, time: 250.47 s
+2022-12-06 06:11:19 INFO     sample: 2.738412, forward: 1.427961, backward: 0.078469, update: 0.028841
+2022-12-06 06:11:23 INFO     [GPU 0] step: 16699, loss: 1.70142, reg: 9.4838e-01, speed: 23.41 steps/s, time: 4.27 s
+2022-12-06 06:11:23 INFO     sample: 2.745826, forward: 1.428575, backward: 0.071079, update: 0.025511
+2022-12-06 06:11:27 INFO     [GPU 0] step: 16799, loss: 1.69439, reg: 9.5876e-01, speed: 23.53 steps/s, time: 4.25 s
+2022-12-06 06:11:27 INFO     sample: 2.772373, forward: 1.380565, backward: 0.071239, update: 0.025527
+2022-12-06 06:11:32 INFO     [GPU 0] step: 16899, loss: 1.72196, reg: 9.6365e-01, speed: 23.44 steps/s, time: 4.27 s
+2022-12-06 06:11:32 INFO     sample: 2.767513, forward: 1.395202, backward: 0.075817, update: 0.027095
+2022-12-06 06:11:36 INFO     [GPU 0] step: 16999, loss: 1.72745, reg: 9.4238e-01, speed: 20.83 steps/s, time: 4.80 s
+2022-12-06 06:11:36 INFO     sample: 3.258919, forward: 1.431868, backward: 0.079248, update: 0.030325
+2022-12-06 06:11:36 INFO     [evaluation] start...
+2022-12-06 06:15:43 INFO     -------------- valid result --------------
+2022-12-06 06:15:43 INFO     t,r->h  |MRR: 0.08601699024438858 MR: 1427.99668 HITS@1: 0.0496 HITS@3: 0.0898 HITS@10: 0.15418
+2022-12-06 06:15:43 INFO     h,r->t  |MRR: 0.6401708722114563 MR: 126.67646 HITS@1: 0.52132 HITS@3: 0.71884 HITS@10: 0.86056
+2022-12-06 06:15:43 INFO     average |MRR: 0.36309394240379333 MR: 777.3365699999999 HITS@1: 0.28546 HITS@3: 0.40432 HITS@10: 0.50737
+2022-12-06 06:15:43 INFO     -----------------------------------------
+2022-12-06 06:15:43 INFO     [evaluation] finished! It takes 246.5659 sec s
+2022-12-06 06:15:47 INFO     [GPU 0] step: 17099, loss: 1.69892, reg: 9.4302e-01, speed: 0.40 steps/s, time: 250.86 s
+2022-12-06 06:15:47 INFO     sample: 2.739089, forward: 1.442129, backward: 0.080623, update: 0.031339
+2022-12-06 06:15:52 INFO     [GPU 0] step: 17199, loss: 1.68573, reg: 9.4360e-01, speed: 23.10 steps/s, time: 4.33 s
+2022-12-06 06:15:52 INFO     sample: 2.816750, forward: 1.403093, backward: 0.079518, update: 0.029772
+2022-12-06 06:15:56 INFO     [GPU 0] step: 17299, loss: 1.69679, reg: 9.5669e-01, speed: 23.25 steps/s, time: 4.30 s
+2022-12-06 06:15:56 INFO     sample: 2.829580, forward: 1.369111, backward: 0.074791, update: 0.027302
+2022-12-06 06:16:01 INFO     [GPU 0] step: 17399, loss: 1.70769, reg: 9.6654e-01, speed: 20.76 steps/s, time: 4.82 s
+2022-12-06 06:16:01 INFO     sample: 3.264022, forward: 1.445819, backward: 0.077783, update: 0.029744
+2022-12-06 06:16:05 INFO     [GPU 0] step: 17499, loss: 1.73399, reg: 9.3657e-01, speed: 23.19 steps/s, time: 4.31 s
+2022-12-06 06:16:05 INFO     sample: 2.723308, forward: 1.469311, backward: 0.087697, update: 0.031904
+2022-12-06 06:16:05 INFO     [evaluation] start...
+2022-12-06 06:20:12 INFO     -------------- valid result --------------
+2022-12-06 06:20:12 INFO     t,r->h  |MRR: 0.08377441763877869 MR: 1411.33072 HITS@1: 0.04726 HITS@3: 0.08682 HITS@10: 0.15332
+2022-12-06 06:20:12 INFO     h,r->t  |MRR: 0.6423625946044922 MR: 119.76762 HITS@1: 0.5273 HITS@3: 0.71754 HITS@10: 0.85804
+2022-12-06 06:20:12 INFO     average |MRR: 0.36306852102279663 MR: 765.54917 HITS@1: 0.28728 HITS@3: 0.40218 HITS@10: 0.50568
+2022-12-06 06:20:12 INFO     -----------------------------------------
+2022-12-06 06:20:13 INFO     [evaluation] finished! It takes 247.7015 sec s
+2022-12-06 06:20:17 INFO     [GPU 0] step: 17599, loss: 1.69002, reg: 9.4040e-01, speed: 0.40 steps/s, time: 252.00 s
+2022-12-06 06:20:17 INFO     sample: 2.755701, forward: 1.432783, backward: 0.082496, update: 0.028388
+2022-12-06 06:20:21 INFO     [GPU 0] step: 17699, loss: 1.68321, reg: 9.5022e-01, speed: 23.21 steps/s, time: 4.31 s
+2022-12-06 06:20:21 INFO     sample: 2.854828, forward: 1.358119, backward: 0.070231, update: 0.025080
+2022-12-06 06:20:26 INFO     [GPU 0] step: 17799, loss: 1.71499, reg: 9.5781e-01, speed: 23.20 steps/s, time: 4.31 s
+2022-12-06 06:20:26 INFO     sample: 2.795710, forward: 1.414983, backward: 0.070283, update: 0.028530
+2022-12-06 06:20:30 INFO     [GPU 0] step: 17899, loss: 1.72076, reg: 9.6058e-01, speed: 20.81 steps/s, time: 4.81 s
+2022-12-06 06:20:30 INFO     sample: 3.237015, forward: 1.458699, backward: 0.079874, update: 0.029845
+2022-12-06 06:20:35 INFO     [GPU 0] step: 17999, loss: 1.72386, reg: 9.3173e-01, speed: 23.07 steps/s, time: 4.33 s
+2022-12-06 06:20:35 INFO     sample: 2.740023, forward: 1.480377, backward: 0.083916, update: 0.029446
+2022-12-06 06:20:35 INFO     [evaluation] start...
+2022-12-06 06:24:40 INFO     -------------- valid result --------------
+2022-12-06 06:24:40 INFO     t,r->h  |MRR: 0.08594148606061935 MR: 1418.63334 HITS@1: 0.04992 HITS@3: 0.08866 HITS@10: 0.15518
+2022-12-06 06:24:40 INFO     h,r->t  |MRR: 0.6064833402633667 MR: 130.2896 HITS@1: 0.47746 HITS@3: 0.6916 HITS@10: 0.84252
+2022-12-06 06:24:40 INFO     average |MRR: 0.3462124168872833 MR: 774.4614700000001 HITS@1: 0.26369 HITS@3: 0.39013 HITS@10: 0.49885
+2022-12-06 06:24:40 INFO     -----------------------------------------
+2022-12-06 06:24:40 INFO     [evaluation] finished! It takes 245.1899 sec s
+2022-12-06 06:24:44 INFO     [GPU 0] step: 18099, loss: 1.69213, reg: 9.4099e-01, speed: 0.40 steps/s, time: 249.49 s
+2022-12-06 06:24:44 INFO     sample: 2.750513, forward: 1.430246, backward: 0.082768, update: 0.032383
+2022-12-06 06:24:48 INFO     [GPU 0] step: 18199, loss: 1.68800, reg: 9.5359e-01, speed: 23.48 steps/s, time: 4.26 s
+2022-12-06 06:24:48 INFO     sample: 2.759910, forward: 1.402454, backward: 0.070166, update: 0.025102
+2022-12-06 06:24:53 INFO     [GPU 0] step: 18299, loss: 1.72940, reg: 9.6121e-01, speed: 23.36 steps/s, time: 4.28 s
+2022-12-06 06:24:53 INFO     sample: 2.771986, forward: 1.412073, backward: 0.071056, update: 0.025562
+2022-12-06 06:24:58 INFO     [GPU 0] step: 18399, loss: 1.71230, reg: 9.5722e-01, speed: 21.00 steps/s, time: 4.76 s
+2022-12-06 06:24:58 INFO     sample: 3.226124, forward: 1.420543, backward: 0.085066, update: 0.029337
+2022-12-06 06:25:02 INFO     [GPU 0] step: 18499, loss: 1.70719, reg: 9.3240e-01, speed: 23.18 steps/s, time: 4.31 s
+2022-12-06 06:25:02 INFO     sample: 2.811843, forward: 1.403756, backward: 0.071023, update: 0.026782
+2022-12-06 06:25:02 INFO     [evaluation] start...

@@ -1,0 +1,626 @@
+2022-11-18 09:29:28 INFO     seed                :0
+2022-11-18 09:29:28 INFO     data_path           :./data
+2022-11-18 09:29:28 INFO     save_path           :output/transe_fb_sgpu/transe_FB15k_d_400_g_19.9_e_gpu_r_gpu_l_Logsigmoid_lr_0.25_0.1_KGE
+2022-11-18 09:29:28 INFO     init_from_ckpt      :None
+2022-11-18 09:29:28 INFO     data_name           :FB15k
+2022-11-18 09:29:28 INFO     use_dict            :False
+2022-11-18 09:29:28 INFO     kv_mode             :kv
+2022-11-18 09:29:28 INFO     batch_size          :1000
+2022-11-18 09:29:28 INFO     test_batch_size     :16
+2022-11-18 09:29:28 INFO     neg_sample_size     :200
+2022-11-18 09:29:28 INFO     filter_eval         :True
+2022-11-18 09:29:28 INFO     model_name          :transe
+2022-11-18 09:29:28 INFO     embed_dim           :400
+2022-11-18 09:29:28 INFO     reg_coef            :1e-09
+2022-11-18 09:29:28 INFO     loss_type           :Logsigmoid
+2022-11-18 09:29:28 INFO     max_steps           :2000000
+2022-11-18 09:29:28 INFO     lr                  :0.25
+2022-11-18 09:29:28 INFO     optimizer           :adagrad
+2022-11-18 09:29:28 INFO     cpu_lr              :0.1
+2022-11-18 09:29:28 INFO     cpu_optimizer       :adagrad
+2022-11-18 09:29:28 INFO     mix_cpu_gpu         :False
+2022-11-18 09:29:28 INFO     async_update        :False
+2022-11-18 09:29:28 INFO     valid               :False
+2022-11-18 09:29:28 INFO     test                :True
+2022-11-18 09:29:28 INFO     task_name           :KGE
+2022-11-18 09:29:28 INFO     num_workers         :8
+2022-11-18 09:29:28 INFO     neg_sample_type     :chunk
+2022-11-18 09:29:28 INFO     neg_deg_sample      :False
+2022-11-18 09:29:28 INFO     neg_adversarial_sampling:True
+2022-11-18 09:29:28 INFO     adversarial_temperature:1.0
+2022-11-18 09:29:28 INFO     filter_sample       :False
+2022-11-18 09:29:28 INFO     valid_percent       :1.0
+2022-11-18 09:29:28 INFO     use_feature         :False
+2022-11-18 09:29:28 INFO     reg_type            :norm_er
+2022-11-18 09:29:28 INFO     reg_norm            :3
+2022-11-18 09:29:28 INFO     weighted_loss       :False
+2022-11-18 09:29:28 INFO     margin              :1.0
+2022-11-18 09:29:28 INFO     pairwise            :False
+2022-11-18 09:29:28 INFO     gamma               :19.9
+2022-11-18 09:29:28 INFO     ote_scale           :0
+2022-11-18 09:29:28 INFO     ote_size            :1
+2022-11-18 09:29:28 INFO     quate_lmbda1        :0.0
+2022-11-18 09:29:28 INFO     quate_lmbda2        :0.0
+2022-11-18 09:29:28 INFO     num_epoch           :50
+2022-11-18 09:29:28 INFO     scheduler_interval  :-1
+2022-11-18 09:29:28 INFO     num_process         :1
+2022-11-18 09:29:28 INFO     print_on_screen     :True
+2022-11-18 09:29:28 INFO     log_interval        :1000
+2022-11-18 09:29:28 INFO     save_interval       :-1
+2022-11-18 09:29:28 INFO     eval_interval       :24000
+2022-11-18 09:29:28 INFO     ent_emb_on_cpu      :False
+2022-11-18 09:29:28 INFO     rel_emb_on_cpu      :False
+2022-11-18 09:29:28 INFO     use_embedding_regularization:True
+2022-11-18 09:29:28 INFO     ent_dim             :400
+2022-11-18 09:29:28 INFO     rel_dim             :400
+2022-11-18 09:29:28 INFO     num_chunks          :5
+2022-11-18 09:30:01 INFO     [GPU 0] step: 999, loss: 0.72140, reg: 8.7295e-04, speed: 43.50 steps/s, time: 22.99 s
+2022-11-18 09:30:01 INFO     sample: 5.497384, forward: 14.979192, backward: 2.282585, update: 0.227502
+2022-11-18 09:30:24 INFO     [GPU 0] step: 1999, loss: 0.40562, reg: 1.1391e-03, speed: 44.54 steps/s, time: 22.45 s
+2022-11-18 09:30:24 INFO     sample: 4.953219, forward: 15.002536, backward: 2.271033, update: 0.220207
+2022-11-18 09:30:46 INFO     [GPU 0] step: 2999, loss: 0.34443, reg: 1.2577e-03, speed: 44.40 steps/s, time: 22.52 s
+2022-11-18 09:30:46 INFO     sample: 4.970550, forward: 15.052727, backward: 2.271545, update: 0.224005
+2022-11-18 09:31:09 INFO     [GPU 0] step: 3999, loss: 0.31227, reg: 1.3373e-03, speed: 44.29 steps/s, time: 22.58 s
+2022-11-18 09:31:09 INFO     sample: 4.966600, forward: 15.098608, backward: 2.268229, update: 0.238727
+2022-11-18 09:31:31 INFO     [GPU 0] step: 4999, loss: 0.29232, reg: 1.3978e-03, speed: 44.16 steps/s, time: 22.64 s
+2022-11-18 09:31:31 INFO     sample: 4.977819, forward: 15.131017, backward: 2.297053, update: 0.233694
+2022-11-18 09:31:54 INFO     [GPU 0] step: 5999, loss: 0.27936, reg: 1.4471e-03, speed: 44.16 steps/s, time: 22.64 s
+2022-11-18 09:31:54 INFO     sample: 4.995070, forward: 15.143477, backward: 2.280328, update: 0.219350
+2022-11-18 09:32:17 INFO     [GPU 0] step: 6999, loss: 0.26899, reg: 1.4896e-03, speed: 44.26 steps/s, time: 22.60 s
+2022-11-18 09:32:17 INFO     sample: 4.987597, forward: 15.151473, backward: 2.229286, update: 0.223129
+2022-11-18 09:32:39 INFO     [GPU 0] step: 7999, loss: 0.26245, reg: 1.5268e-03, speed: 44.25 steps/s, time: 22.60 s
+2022-11-18 09:32:39 INFO     sample: 4.964823, forward: 15.153383, backward: 2.244798, update: 0.232033
+2022-11-18 09:33:02 INFO     [GPU 0] step: 8999, loss: 0.25697, reg: 1.5600e-03, speed: 44.37 steps/s, time: 22.54 s
+2022-11-18 09:33:02 INFO     sample: 4.982905, forward: 15.092062, backward: 2.239184, update: 0.218073
+2022-11-18 09:33:24 INFO     [GPU 0] step: 9999, loss: 0.25209, reg: 1.5903e-03, speed: 44.34 steps/s, time: 22.55 s
+2022-11-18 09:33:24 INFO     sample: 5.003148, forward: 15.152885, backward: 2.173850, update: 0.220559
+2022-11-18 09:33:47 INFO     [GPU 0] step: 10999, loss: 0.24736, reg: 1.6172e-03, speed: 44.29 steps/s, time: 22.58 s
+2022-11-18 09:33:47 INFO     sample: 4.975405, forward: 15.161983, backward: 2.217238, update: 0.218438
+2022-11-18 09:34:11 INFO     [GPU 0] step: 11999, loss: 0.24463, reg: 1.6432e-03, speed: 41.68 steps/s, time: 23.99 s
+2022-11-18 09:34:11 INFO     sample: 5.235733, forward: 16.224562, backward: 2.307367, update: 0.220681
+2022-11-18 09:34:35 INFO     [GPU 0] step: 12999, loss: 0.24152, reg: 1.6675e-03, speed: 41.29 steps/s, time: 24.22 s
+2022-11-18 09:34:35 INFO     sample: 5.297828, forward: 16.384685, backward: 2.312857, update: 0.221030
+2022-11-18 09:34:59 INFO     [GPU 0] step: 13999, loss: 0.23949, reg: 1.6900e-03, speed: 42.34 steps/s, time: 23.62 s
+2022-11-18 09:34:59 INFO     sample: 5.181076, forward: 15.882216, backward: 2.329813, update: 0.220212
+2022-11-18 09:35:22 INFO     [GPU 0] step: 14999, loss: 0.23792, reg: 1.7118e-03, speed: 43.72 steps/s, time: 22.87 s
+2022-11-18 09:35:22 INFO     sample: 5.400708, forward: 15.161601, backward: 2.085827, update: 0.219254
+2022-11-18 09:35:44 INFO     [GPU 0] step: 15999, loss: 0.23629, reg: 1.7319e-03, speed: 44.51 steps/s, time: 22.47 s
+2022-11-18 09:35:44 INFO     sample: 4.956898, forward: 15.116190, backward: 2.168229, update: 0.221421
+2022-11-18 09:36:07 INFO     [GPU 0] step: 16999, loss: 0.23509, reg: 1.7511e-03, speed: 44.64 steps/s, time: 22.40 s
+2022-11-18 09:36:07 INFO     sample: 4.954745, forward: 14.987330, backward: 2.237481, update: 0.216902
+2022-11-18 09:36:29 INFO     [GPU 0] step: 17999, loss: 0.23238, reg: 1.7686e-03, speed: 44.58 steps/s, time: 22.43 s
+2022-11-18 09:36:29 INFO     sample: 4.967288, forward: 15.124334, backward: 2.118709, update: 0.214543
+2022-11-18 09:36:51 INFO     [GPU 0] step: 18999, loss: 0.23097, reg: 1.7861e-03, speed: 44.57 steps/s, time: 22.44 s
+2022-11-18 09:36:51 INFO     sample: 4.982574, forward: 15.046682, backward: 2.188029, update: 0.215218
+2022-11-18 09:37:14 INFO     [GPU 0] step: 19999, loss: 0.23031, reg: 1.8025e-03, speed: 44.58 steps/s, time: 22.43 s
+2022-11-18 09:37:14 INFO     sample: 4.986051, forward: 15.139672, backward: 2.071499, update: 0.228044
+2022-11-18 09:37:36 INFO     [GPU 0] step: 20999, loss: 0.22915, reg: 1.8187e-03, speed: 44.42 steps/s, time: 22.51 s
+2022-11-18 09:37:36 INFO     sample: 4.984205, forward: 15.037109, backward: 2.270518, update: 0.215345
+2022-11-18 09:37:59 INFO     [GPU 0] step: 21999, loss: 0.22893, reg: 1.8333e-03, speed: 44.57 steps/s, time: 22.44 s
+2022-11-18 09:37:59 INFO     sample: 4.971153, forward: 15.155996, backward: 2.090030, update: 0.215302
+2022-11-18 09:38:21 INFO     [GPU 0] step: 22999, loss: 0.22826, reg: 1.8476e-03, speed: 44.51 steps/s, time: 22.47 s
+2022-11-18 09:38:21 INFO     sample: 4.971097, forward: 14.969269, backward: 2.303644, update: 0.218935
+2022-11-18 09:38:44 INFO     [GPU 0] step: 23999, loss: 0.22771, reg: 1.8610e-03, speed: 44.50 steps/s, time: 22.47 s
+2022-11-18 09:38:44 INFO     sample: 4.946437, forward: 15.050251, backward: 2.237438, update: 0.234967
+2022-11-18 09:38:47 INFO     [evaluation] start...
+2022-11-18 09:52:18 INFO     -------------- test result --------------
+2022-11-18 09:52:18 INFO     t,r->h  |MRR: 0.35899078845977783 MR: 184.53926630664793 HITS@1: 0.2485314282812209 HITS@3: 0.4157708520255286 HITS@10: 0.5656244180731662
+2022-11-18 09:52:18 INFO     h,r->t  |MRR: 0.7485599517822266 MR: 7.197660442518325 HITS@1: 0.5390293037192531 HITS@3: 0.9594047840734032 HITS@10: 0.9901813072404395
+2022-11-18 09:52:18 INFO     average |MRR: 0.5537753701210022 MR: 95.86846337458313 HITS@1: 0.39378036600023697 HITS@3: 0.6875878180494659 HITS@10: 0.7779028626568029
+2022-11-18 09:52:18 INFO     -----------------------------------------
+2022-11-18 09:52:19 INFO     [evaluation] finished! It takes 811.5896 sec s
+2022-11-18 09:57:59 INFO     seed                :0
+2022-11-18 09:57:59 INFO     data_path           :./data
+2022-11-18 09:57:59 INFO     save_path           :output/transe_fb_sgpu/transe_FB15k_d_400_g_19.9_e_gpu_r_gpu_l_Logsigmoid_lr_0.25_0.1_KGE
+2022-11-18 09:57:59 INFO     init_from_ckpt      :None
+2022-11-18 09:57:59 INFO     data_name           :FB15k
+2022-11-18 09:57:59 INFO     use_dict            :False
+2022-11-18 09:57:59 INFO     kv_mode             :kv
+2022-11-18 09:57:59 INFO     batch_size          :1000
+2022-11-18 09:57:59 INFO     test_batch_size     :16
+2022-11-18 09:57:59 INFO     neg_sample_size     :200
+2022-11-18 09:57:59 INFO     filter_eval         :True
+2022-11-18 09:57:59 INFO     model_name          :transe
+2022-11-18 09:57:59 INFO     embed_dim           :400
+2022-11-18 09:57:59 INFO     reg_coef            :1e-09
+2022-11-18 09:57:59 INFO     loss_type           :Logsigmoid
+2022-11-18 09:57:59 INFO     max_steps           :5000
+2022-11-18 09:57:59 INFO     lr                  :0.25
+2022-11-18 09:57:59 INFO     optimizer           :adagrad
+2022-11-18 09:57:59 INFO     cpu_lr              :0.1
+2022-11-18 09:57:59 INFO     cpu_optimizer       :adagrad
+2022-11-18 09:57:59 INFO     mix_cpu_gpu         :False
+2022-11-18 09:57:59 INFO     async_update        :False
+2022-11-18 09:57:59 INFO     valid               :False
+2022-11-18 09:57:59 INFO     test                :True
+2022-11-18 09:57:59 INFO     task_name           :KGE
+2022-11-18 09:57:59 INFO     num_workers         :8
+2022-11-18 09:57:59 INFO     neg_sample_type     :chunk
+2022-11-18 09:57:59 INFO     neg_deg_sample      :False
+2022-11-18 09:57:59 INFO     neg_adversarial_sampling:True
+2022-11-18 09:57:59 INFO     adversarial_temperature:1.0
+2022-11-18 09:57:59 INFO     filter_sample       :False
+2022-11-18 09:57:59 INFO     valid_percent       :1.0
+2022-11-18 09:57:59 INFO     use_feature         :False
+2022-11-18 09:57:59 INFO     reg_type            :norm_er
+2022-11-18 09:57:59 INFO     reg_norm            :3
+2022-11-18 09:57:59 INFO     weighted_loss       :False
+2022-11-18 09:57:59 INFO     margin              :1.0
+2022-11-18 09:57:59 INFO     pairwise            :False
+2022-11-18 09:57:59 INFO     gamma               :19.9
+2022-11-18 09:57:59 INFO     ote_scale           :0
+2022-11-18 09:57:59 INFO     ote_size            :1
+2022-11-18 09:57:59 INFO     quate_lmbda1        :0.0
+2022-11-18 09:57:59 INFO     quate_lmbda2        :0.0
+2022-11-18 09:57:59 INFO     num_epoch           :1000000
+2022-11-18 09:57:59 INFO     scheduler_interval  :-1
+2022-11-18 09:57:59 INFO     num_process         :1
+2022-11-18 09:57:59 INFO     print_on_screen     :True
+2022-11-18 09:57:59 INFO     log_interval        :1000
+2022-11-18 09:57:59 INFO     save_interval       :-1
+2022-11-18 09:57:59 INFO     eval_interval       :5000
+2022-11-18 09:57:59 INFO     ent_emb_on_cpu      :False
+2022-11-18 09:57:59 INFO     rel_emb_on_cpu      :False
+2022-11-18 09:57:59 INFO     use_embedding_regularization:True
+2022-11-18 09:57:59 INFO     ent_dim             :400
+2022-11-18 09:57:59 INFO     rel_dim             :400
+2022-11-18 09:57:59 INFO     num_chunks          :5
+2022-11-18 09:58:33 INFO     [GPU 0] step: 999, loss: 0.72314, reg: 8.7473e-04, speed: 42.12 steps/s, time: 23.74 s
+2022-11-18 09:58:33 INFO     sample: 5.500006, forward: 15.722345, backward: 2.295611, update: 0.221214
+2022-11-18 09:58:56 INFO     [GPU 0] step: 1999, loss: 0.40544, reg: 1.1395e-03, speed: 43.06 steps/s, time: 23.22 s
+2022-11-18 09:58:56 INFO     sample: 4.986760, forward: 15.733013, backward: 2.282834, update: 0.217375
+2022-11-18 09:59:19 INFO     [GPU 0] step: 2999, loss: 0.34413, reg: 1.2580e-03, speed: 44.16 steps/s, time: 22.64 s
+2022-11-18 09:59:19 INFO     sample: 4.957548, forward: 15.219601, backward: 2.242480, update: 0.218884
+2022-11-18 09:59:41 INFO     [GPU 0] step: 3999, loss: 0.31209, reg: 1.3381e-03, speed: 44.36 steps/s, time: 22.54 s
+2022-11-18 09:59:41 INFO     sample: 4.933501, forward: 15.110744, backward: 2.272884, update: 0.221400
+2022-11-18 10:00:04 INFO     [GPU 0] step: 4999, loss: 0.29290, reg: 1.3992e-03, speed: 44.42 steps/s, time: 22.51 s
+2022-11-18 10:00:04 INFO     sample: 4.970826, forward: 15.162566, backward: 2.153525, update: 0.219497
+2022-11-18 10:00:04 INFO     test end!
+2022-11-18 10:00:04 INFO     [evaluation] start...
+2022-11-18 10:03:21 INFO     seed                :0
+2022-11-18 10:03:21 INFO     data_path           :./data
+2022-11-18 10:03:21 INFO     save_path           :output/transe_fb_sgpu/transe_FB15k_d_400_g_19.9_e_gpu_r_gpu_l_Logsigmoid_lr_0.25_0.1_KGE
+2022-11-18 10:03:21 INFO     init_from_ckpt      :None
+2022-11-18 10:03:21 INFO     data_name           :FB15k
+2022-11-18 10:03:21 INFO     use_dict            :False
+2022-11-18 10:03:21 INFO     kv_mode             :kv
+2022-11-18 10:03:21 INFO     batch_size          :1000
+2022-11-18 10:03:21 INFO     test_batch_size     :16
+2022-11-18 10:03:21 INFO     neg_sample_size     :200
+2022-11-18 10:03:21 INFO     filter_eval         :True
+2022-11-18 10:03:21 INFO     model_name          :transe
+2022-11-18 10:03:21 INFO     embed_dim           :400
+2022-11-18 10:03:21 INFO     reg_coef            :1e-09
+2022-11-18 10:03:21 INFO     loss_type           :Logsigmoid
+2022-11-18 10:03:21 INFO     max_steps           :1000
+2022-11-18 10:03:21 INFO     lr                  :0.25
+2022-11-18 10:03:21 INFO     optimizer           :adagrad
+2022-11-18 10:03:21 INFO     cpu_lr              :0.1
+2022-11-18 10:03:21 INFO     cpu_optimizer       :adagrad
+2022-11-18 10:03:21 INFO     mix_cpu_gpu         :False
+2022-11-18 10:03:21 INFO     async_update        :False
+2022-11-18 10:03:21 INFO     valid               :False
+2022-11-18 10:03:21 INFO     test                :True
+2022-11-18 10:03:21 INFO     task_name           :KGE
+2022-11-18 10:03:21 INFO     num_workers         :8
+2022-11-18 10:03:21 INFO     neg_sample_type     :chunk
+2022-11-18 10:03:21 INFO     neg_deg_sample      :False
+2022-11-18 10:03:21 INFO     neg_adversarial_sampling:True
+2022-11-18 10:03:21 INFO     adversarial_temperature:1.0
+2022-11-18 10:03:21 INFO     filter_sample       :False
+2022-11-18 10:03:21 INFO     valid_percent       :1.0
+2022-11-18 10:03:21 INFO     use_feature         :False
+2022-11-18 10:03:21 INFO     reg_type            :norm_er
+2022-11-18 10:03:21 INFO     reg_norm            :3
+2022-11-18 10:03:21 INFO     weighted_loss       :False
+2022-11-18 10:03:21 INFO     margin              :1.0
+2022-11-18 10:03:21 INFO     pairwise            :False
+2022-11-18 10:03:21 INFO     gamma               :19.9
+2022-11-18 10:03:21 INFO     ote_scale           :0
+2022-11-18 10:03:21 INFO     ote_size            :1
+2022-11-18 10:03:21 INFO     quate_lmbda1        :0.0
+2022-11-18 10:03:21 INFO     quate_lmbda2        :0.0
+2022-11-18 10:03:21 INFO     num_epoch           :1000000
+2022-11-18 10:03:21 INFO     scheduler_interval  :-1
+2022-11-18 10:03:21 INFO     num_process         :1
+2022-11-18 10:03:21 INFO     print_on_screen     :True
+2022-11-18 10:03:21 INFO     log_interval        :100
+2022-11-18 10:03:21 INFO     save_interval       :-1
+2022-11-18 10:03:21 INFO     eval_interval       :500
+2022-11-18 10:03:21 INFO     ent_emb_on_cpu      :False
+2022-11-18 10:03:21 INFO     rel_emb_on_cpu      :False
+2022-11-18 10:03:21 INFO     use_embedding_regularization:True
+2022-11-18 10:03:21 INFO     ent_dim             :400
+2022-11-18 10:03:21 INFO     rel_dim             :400
+2022-11-18 10:03:21 INFO     num_chunks          :5
+2022-11-18 10:03:29 INFO     [GPU 0] step: 99, loss: 2.13934, reg: 4.9788e-04, speed: 107.05 steps/s, time: 0.93 s
+2022-11-18 10:03:29 INFO     sample: 0.590839, forward: 0.246749, backward: 0.069283, update: 0.026880
+2022-11-18 10:03:30 INFO     [GPU 0] step: 199, loss: 0.77322, reg: 7.2703e-04, speed: 243.55 steps/s, time: 0.41 s
+2022-11-18 10:03:30 INFO     sample: 0.060662, forward: 0.255693, backward: 0.069119, update: 0.024707
+2022-11-18 10:03:30 INFO     [GPU 0] step: 299, loss: 0.64018, reg: 8.0954e-04, speed: 235.27 steps/s, time: 0.43 s
+2022-11-18 10:03:30 INFO     sample: 0.062702, forward: 0.264039, backward: 0.073217, update: 0.024679
+2022-11-18 10:03:31 INFO     [GPU 0] step: 399, loss: 0.59981, reg: 8.5767e-04, speed: 234.55 steps/s, time: 0.43 s
+2022-11-18 10:03:31 INFO     sample: 0.067685, forward: 0.260687, backward: 0.073325, update: 0.024223
+2022-11-18 10:03:32 INFO     [GPU 0] step: 499, loss: 0.55393, reg: 8.9081e-04, speed: 121.51 steps/s, time: 0.82 s
+2022-11-18 10:03:32 INFO     sample: 0.464026, forward: 0.257384, backward: 0.075888, update: 0.025232
+2022-11-18 10:03:32 INFO     [GPU 0] step: 599, loss: 0.51345, reg: 9.4378e-04, speed: 241.38 steps/s, time: 0.41 s
+2022-11-18 10:03:32 INFO     sample: 0.060435, forward: 0.253161, backward: 0.074552, update: 0.025723
+2022-11-18 10:03:32 INFO     [GPU 0] step: 699, loss: 0.51060, reg: 9.7412e-04, speed: 242.94 steps/s, time: 0.41 s
+2022-11-18 10:03:32 INFO     sample: 0.065187, forward: 0.246920, backward: 0.073057, update: 0.026050
+2022-11-18 10:03:33 INFO     [GPU 0] step: 799, loss: 0.50964, reg: 9.9707e-04, speed: 230.50 steps/s, time: 0.43 s
+2022-11-18 10:03:33 INFO     sample: 0.068070, forward: 0.267856, backward: 0.073633, update: 0.023847
+2022-11-18 10:03:33 INFO     [GPU 0] step: 899, loss: 0.51200, reg: 1.0161e-03, speed: 218.97 steps/s, time: 0.46 s
+2022-11-18 10:03:33 INFO     sample: 0.063938, forward: 0.284326, backward: 0.080897, update: 0.027058
+2022-11-18 10:03:34 INFO     [GPU 0] step: 999, loss: 0.47012, reg: 1.0367e-03, speed: 122.53 steps/s, time: 0.82 s
+2022-11-18 10:03:34 INFO     sample: 0.463997, forward: 0.248611, backward: 0.077912, update: 0.025179
+2022-11-18 10:03:34 INFO     test end!
+2022-11-18 10:03:34 INFO     [evaluation] start...
+2022-11-18 10:04:50 INFO     seed                :0
+2022-11-18 10:04:50 INFO     data_path           :./data
+2022-11-18 10:04:50 INFO     save_path           :output/transe_fb_sgpu/transe_FB15k_d_400_g_19.9_e_gpu_r_gpu_l_Logsigmoid_lr_0.25_0.1_KGE
+2022-11-18 10:04:50 INFO     init_from_ckpt      :None
+2022-11-18 10:04:50 INFO     data_name           :FB15k
+2022-11-18 10:04:50 INFO     use_dict            :False
+2022-11-18 10:04:50 INFO     kv_mode             :kv
+2022-11-18 10:04:50 INFO     batch_size          :1000
+2022-11-18 10:04:50 INFO     test_batch_size     :16
+2022-11-18 10:04:50 INFO     neg_sample_size     :200
+2022-11-18 10:04:50 INFO     filter_eval         :True
+2022-11-18 10:04:50 INFO     model_name          :transe
+2022-11-18 10:04:50 INFO     embed_dim           :400
+2022-11-18 10:04:50 INFO     reg_coef            :1e-09
+2022-11-18 10:04:50 INFO     loss_type           :Logsigmoid
+2022-11-18 10:04:50 INFO     max_steps           :1000000000
+2022-11-18 10:04:50 INFO     lr                  :0.25
+2022-11-18 10:04:50 INFO     optimizer           :adagrad
+2022-11-18 10:04:50 INFO     cpu_lr              :0.1
+2022-11-18 10:04:50 INFO     cpu_optimizer       :adagrad
+2022-11-18 10:04:50 INFO     mix_cpu_gpu         :False
+2022-11-18 10:04:50 INFO     async_update        :False
+2022-11-18 10:04:50 INFO     valid               :False
+2022-11-18 10:04:50 INFO     test                :True
+2022-11-18 10:04:50 INFO     task_name           :KGE
+2022-11-18 10:04:50 INFO     num_workers         :8
+2022-11-18 10:04:50 INFO     neg_sample_type     :chunk
+2022-11-18 10:04:50 INFO     neg_deg_sample      :False
+2022-11-18 10:04:50 INFO     neg_adversarial_sampling:True
+2022-11-18 10:04:50 INFO     adversarial_temperature:1.0
+2022-11-18 10:04:50 INFO     filter_sample       :False
+2022-11-18 10:04:50 INFO     valid_percent       :1.0
+2022-11-18 10:04:50 INFO     use_feature         :False
+2022-11-18 10:04:50 INFO     reg_type            :norm_er
+2022-11-18 10:04:50 INFO     reg_norm            :3
+2022-11-18 10:04:50 INFO     weighted_loss       :False
+2022-11-18 10:04:50 INFO     margin              :1.0
+2022-11-18 10:04:50 INFO     pairwise            :False
+2022-11-18 10:04:50 INFO     gamma               :19.9
+2022-11-18 10:04:50 INFO     ote_scale           :0
+2022-11-18 10:04:50 INFO     ote_size            :1
+2022-11-18 10:04:50 INFO     quate_lmbda1        :0.0
+2022-11-18 10:04:50 INFO     quate_lmbda2        :0.0
+2022-11-18 10:04:50 INFO     num_epoch           :1000000
+2022-11-18 10:04:50 INFO     scheduler_interval  :-1
+2022-11-18 10:04:50 INFO     num_process         :1
+2022-11-18 10:04:50 INFO     print_on_screen     :True
+2022-11-18 10:04:50 INFO     log_interval        :100
+2022-11-18 10:04:50 INFO     save_interval       :-1
+2022-11-18 10:04:50 INFO     eval_interval       :500
+2022-11-18 10:04:50 INFO     ent_emb_on_cpu      :False
+2022-11-18 10:04:50 INFO     rel_emb_on_cpu      :False
+2022-11-18 10:04:50 INFO     use_embedding_regularization:True
+2022-11-18 10:04:50 INFO     ent_dim             :400
+2022-11-18 10:04:50 INFO     rel_dim             :400
+2022-11-18 10:04:50 INFO     num_chunks          :5
+2022-11-18 10:05:03 INFO     [GPU 0] step: 99, loss: 2.12951, reg: 5.0351e-04, speed: 37.24 steps/s, time: 2.69 s
+2022-11-18 10:05:03 INFO     sample: 0.911530, forward: 1.521261, backward: 0.228516, update: 0.023906
+2022-11-18 10:05:05 INFO     [GPU 0] step: 199, loss: 0.77658, reg: 7.2981e-04, speed: 46.03 steps/s, time: 2.17 s
+2022-11-18 10:05:05 INFO     sample: 0.397131, forward: 1.522202, backward: 0.229939, update: 0.022620
+2022-11-18 10:05:07 INFO     [GPU 0] step: 299, loss: 0.64372, reg: 8.1057e-04, speed: 46.30 steps/s, time: 2.16 s
+2022-11-18 10:05:07 INFO     sample: 0.372505, forward: 1.539495, backward: 0.225467, update: 0.021892
+2022-11-18 10:05:09 INFO     [GPU 0] step: 399, loss: 0.59840, reg: 8.5705e-04, speed: 46.08 steps/s, time: 2.17 s
+2022-11-18 10:05:09 INFO     sample: 0.382063, forward: 1.533188, backward: 0.232740, update: 0.021857
+2022-11-18 10:05:12 INFO     [GPU 0] step: 499, loss: 0.55163, reg: 8.9101e-04, speed: 38.55 steps/s, time: 2.59 s
+2022-11-18 10:05:12 INFO     sample: 0.842088, forward: 1.499593, backward: 0.228838, update: 0.022845
+2022-11-18 10:05:14 INFO     [GPU 0] step: 599, loss: 0.51609, reg: 9.4552e-04, speed: 45.95 steps/s, time: 2.18 s
+2022-11-18 10:05:14 INFO     sample: 0.414762, forward: 1.506456, backward: 0.232785, update: 0.022027
+2022-11-18 10:05:16 INFO     [GPU 0] step: 699, loss: 0.51336, reg: 9.7538e-04, speed: 46.59 steps/s, time: 2.15 s
+2022-11-18 10:05:16 INFO     sample: 0.410267, forward: 1.482684, backward: 0.230999, update: 0.022192
+2022-11-18 10:05:18 INFO     [GPU 0] step: 799, loss: 0.51503, reg: 9.9657e-04, speed: 46.51 steps/s, time: 2.15 s
+2022-11-18 10:05:18 INFO     sample: 0.410635, forward: 1.484062, backward: 0.232557, update: 0.022479
+2022-11-18 10:05:21 INFO     [GPU 0] step: 899, loss: 0.51178, reg: 1.0158e-03, speed: 46.60 steps/s, time: 2.15 s
+2022-11-18 10:05:21 INFO     sample: 0.395355, forward: 1.501613, backward: 0.226432, update: 0.021957
+2022-11-18 10:05:23 INFO     [GPU 0] step: 999, loss: 0.47132, reg: 1.0367e-03, speed: 39.36 steps/s, time: 2.54 s
+2022-11-18 10:05:23 INFO     sample: 0.778572, forward: 1.510748, backward: 0.228630, update: 0.022309
+2022-11-18 10:05:25 INFO     [GPU 0] step: 1099, loss: 0.42914, reg: 1.0743e-03, speed: 46.65 steps/s, time: 2.14 s
+2022-11-18 10:05:25 INFO     sample: 0.411702, forward: 1.476795, backward: 0.232529, update: 0.022036
+2022-11-18 10:05:27 INFO     [GPU 0] step: 1199, loss: 0.43146, reg: 1.0932e-03, speed: 46.00 steps/s, time: 2.17 s
+2022-11-18 10:05:27 INFO     sample: 0.394201, forward: 1.530532, backward: 0.226433, update: 0.022163
+2022-11-18 10:05:30 INFO     [GPU 0] step: 1299, loss: 0.43589, reg: 1.1063e-03, speed: 46.32 steps/s, time: 2.16 s
+2022-11-18 10:05:30 INFO     sample: 0.370317, forward: 1.537682, backward: 0.228960, update: 0.021408
+2022-11-18 10:05:32 INFO     [GPU 0] step: 1399, loss: 0.43294, reg: 1.1178e-03, speed: 46.31 steps/s, time: 2.16 s
+2022-11-18 10:05:32 INFO     sample: 0.371934, forward: 1.538124, backward: 0.227447, update: 0.021471
+2022-11-18 10:05:34 INFO     [GPU 0] step: 1499, loss: 0.40348, reg: 1.1342e-03, speed: 39.19 steps/s, time: 2.55 s
+2022-11-18 10:05:34 INFO     sample: 0.792171, forward: 1.505928, backward: 0.230582, update: 0.022411
+2022-11-18 10:05:36 INFO     [GPU 0] step: 1599, loss: 0.38594, reg: 1.1592e-03, speed: 46.31 steps/s, time: 2.16 s
+2022-11-18 10:05:36 INFO     sample: 0.370261, forward: 1.537765, backward: 0.229456, update: 0.021477
+2022-11-18 10:05:39 INFO     [GPU 0] step: 1699, loss: 0.38941, reg: 1.1734e-03, speed: 45.88 steps/s, time: 2.18 s
+2022-11-18 10:05:39 INFO     sample: 0.382750, forward: 1.533946, backward: 0.227389, update: 0.035183
+2022-11-18 10:05:41 INFO     [GPU 0] step: 1799, loss: 0.39472, reg: 1.1806e-03, speed: 46.25 steps/s, time: 2.16 s
+2022-11-18 10:05:41 INFO     sample: 0.372157, forward: 1.538679, backward: 0.229737, update: 0.021410
+2022-11-18 10:05:43 INFO     [GPU 0] step: 1899, loss: 0.38992, reg: 1.1906e-03, speed: 46.36 steps/s, time: 2.16 s
+2022-11-18 10:05:43 INFO     sample: 0.372115, forward: 1.537095, backward: 0.225610, update: 0.021657
+2022-11-18 10:05:45 INFO     [GPU 0] step: 1999, loss: 0.36148, reg: 1.2025e-03, speed: 39.01 steps/s, time: 2.56 s
+2022-11-18 10:05:45 INFO     sample: 0.798026, forward: 1.509723, backward: 0.231793, update: 0.023509
+2022-11-18 10:05:48 INFO     [GPU 0] step: 2099, loss: 0.35120, reg: 1.2226e-03, speed: 46.53 steps/s, time: 2.15 s
+2022-11-18 10:05:48 INFO     sample: 0.410960, forward: 1.483597, backward: 0.232265, update: 0.021774
+2022-11-18 10:05:50 INFO     [GPU 0] step: 2199, loss: 0.36053, reg: 1.2316e-03, speed: 46.61 steps/s, time: 2.15 s
+2022-11-18 10:05:50 INFO     sample: 0.410815, forward: 1.481566, backward: 0.230586, update: 0.022274
+2022-11-18 10:05:52 INFO     [GPU 0] step: 2299, loss: 0.36441, reg: 1.2392e-03, speed: 46.64 steps/s, time: 2.14 s
+2022-11-18 10:05:52 INFO     sample: 0.406123, forward: 1.481869, backward: 0.233982, update: 0.021811
+2022-11-18 10:05:54 INFO     [GPU 0] step: 2399, loss: 0.35920, reg: 1.2458e-03, speed: 46.33 steps/s, time: 2.16 s
+2022-11-18 10:05:54 INFO     sample: 0.370914, forward: 1.536497, backward: 0.229568, update: 0.021182
+2022-11-18 10:06:08 INFO     seed                :0
+2022-11-18 10:06:08 INFO     data_path           :./data
+2022-11-18 10:06:08 INFO     save_path           :output/transe_fb_sgpu/transe_FB15k_d_400_g_19.9_e_gpu_r_gpu_l_Logsigmoid_lr_0.25_0.1_KGE
+2022-11-18 10:06:08 INFO     init_from_ckpt      :None
+2022-11-18 10:06:08 INFO     data_name           :FB15k
+2022-11-18 10:06:08 INFO     use_dict            :False
+2022-11-18 10:06:08 INFO     kv_mode             :kv
+2022-11-18 10:06:08 INFO     batch_size          :1000
+2022-11-18 10:06:08 INFO     test_batch_size     :16
+2022-11-18 10:06:08 INFO     neg_sample_size     :200
+2022-11-18 10:06:08 INFO     filter_eval         :True
+2022-11-18 10:06:08 INFO     model_name          :transe
+2022-11-18 10:06:08 INFO     embed_dim           :400
+2022-11-18 10:06:08 INFO     reg_coef            :1e-09
+2022-11-18 10:06:08 INFO     loss_type           :Logsigmoid
+2022-11-18 10:06:08 INFO     max_steps           :2000
+2022-11-18 10:06:08 INFO     lr                  :0.25
+2022-11-18 10:06:08 INFO     optimizer           :adagrad
+2022-11-18 10:06:08 INFO     cpu_lr              :0.1
+2022-11-18 10:06:08 INFO     cpu_optimizer       :adagrad
+2022-11-18 10:06:08 INFO     mix_cpu_gpu         :False
+2022-11-18 10:06:08 INFO     async_update        :False
+2022-11-18 10:06:08 INFO     valid               :False
+2022-11-18 10:06:08 INFO     test                :True
+2022-11-18 10:06:08 INFO     task_name           :KGE
+2022-11-18 10:06:08 INFO     num_workers         :8
+2022-11-18 10:06:08 INFO     neg_sample_type     :chunk
+2022-11-18 10:06:08 INFO     neg_deg_sample      :False
+2022-11-18 10:06:08 INFO     neg_adversarial_sampling:True
+2022-11-18 10:06:08 INFO     adversarial_temperature:1.0
+2022-11-18 10:06:08 INFO     filter_sample       :False
+2022-11-18 10:06:08 INFO     valid_percent       :1.0
+2022-11-18 10:06:08 INFO     use_feature         :False
+2022-11-18 10:06:08 INFO     reg_type            :norm_er
+2022-11-18 10:06:08 INFO     reg_norm            :3
+2022-11-18 10:06:08 INFO     weighted_loss       :False
+2022-11-18 10:06:08 INFO     margin              :1.0
+2022-11-18 10:06:08 INFO     pairwise            :False
+2022-11-18 10:06:08 INFO     gamma               :19.9
+2022-11-18 10:06:08 INFO     ote_scale           :0
+2022-11-18 10:06:08 INFO     ote_size            :1
+2022-11-18 10:06:08 INFO     quate_lmbda1        :0.0
+2022-11-18 10:06:08 INFO     quate_lmbda2        :0.0
+2022-11-18 10:06:08 INFO     num_epoch           :1000000
+2022-11-18 10:06:08 INFO     scheduler_interval  :-1
+2022-11-18 10:06:08 INFO     num_process         :1
+2022-11-18 10:06:08 INFO     print_on_screen     :True
+2022-11-18 10:06:08 INFO     log_interval        :100
+2022-11-18 10:06:08 INFO     save_interval       :-1
+2022-11-18 10:06:08 INFO     eval_interval       :500
+2022-11-18 10:06:08 INFO     ent_emb_on_cpu      :False
+2022-11-18 10:06:08 INFO     rel_emb_on_cpu      :False
+2022-11-18 10:06:08 INFO     use_embedding_regularization:True
+2022-11-18 10:06:08 INFO     ent_dim             :400
+2022-11-18 10:06:08 INFO     rel_dim             :400
+2022-11-18 10:06:08 INFO     num_chunks          :5
+2022-11-18 10:06:21 INFO     [GPU 0] step: 99, loss: 2.13791, reg: 4.9891e-04, speed: 36.29 steps/s, time: 2.76 s
+2022-11-18 10:06:21 INFO     sample: 0.949728, forward: 1.558171, backward: 0.224664, update: 0.022362
+2022-11-18 10:06:23 INFO     [GPU 0] step: 199, loss: 0.77339, reg: 7.2412e-04, speed: 44.29 steps/s, time: 2.26 s
+2022-11-18 10:06:23 INFO     sample: 0.424615, forward: 1.579199, backward: 0.232056, update: 0.021472
+2022-11-18 10:06:25 INFO     [GPU 0] step: 299, loss: 0.63729, reg: 8.0402e-04, speed: 44.37 steps/s, time: 2.25 s
+2022-11-18 10:06:25 INFO     sample: 0.423353, forward: 1.577578, backward: 0.230875, update: 0.021704
+2022-11-18 10:06:27 INFO     [GPU 0] step: 399, loss: 0.59632, reg: 8.5061e-04, speed: 44.28 steps/s, time: 2.26 s
+2022-11-18 10:06:27 INFO     sample: 0.420692, forward: 1.582034, backward: 0.233750, update: 0.021601
+2022-11-18 10:06:30 INFO     [GPU 0] step: 499, loss: 0.54848, reg: 8.8562e-04, speed: 37.94 steps/s, time: 2.64 s
+2022-11-18 10:06:30 INFO     sample: 0.804380, forward: 1.575376, backward: 0.233256, update: 0.022506
+2022-11-18 10:06:32 INFO     [GPU 0] step: 599, loss: 0.51365, reg: 9.3819e-04, speed: 43.94 steps/s, time: 2.28 s
+2022-11-18 10:06:32 INFO     sample: 0.422414, forward: 1.588310, backward: 0.243127, update: 0.021412
+2022-11-18 10:06:35 INFO     [GPU 0] step: 699, loss: 0.50949, reg: 9.6787e-04, speed: 44.73 steps/s, time: 2.24 s
+2022-11-18 10:06:35 INFO     sample: 0.419360, forward: 1.566374, backward: 0.228399, update: 0.021263
+2022-11-18 10:06:37 INFO     [GPU 0] step: 799, loss: 0.51634, reg: 9.9149e-04, speed: 44.24 steps/s, time: 2.26 s
+2022-11-18 10:06:37 INFO     sample: 0.423208, forward: 1.588961, backward: 0.226305, update: 0.021317
+2022-11-18 10:06:39 INFO     [GPU 0] step: 899, loss: 0.51430, reg: 1.0100e-03, speed: 44.50 steps/s, time: 2.25 s
+2022-11-18 10:06:39 INFO     sample: 0.421030, forward: 1.575254, backward: 0.229138, update: 0.021549
+2022-11-18 10:06:42 INFO     [GPU 0] step: 999, loss: 0.47113, reg: 1.0305e-03, speed: 38.07 steps/s, time: 2.63 s
+2022-11-18 10:06:42 INFO     sample: 0.798330, forward: 1.571864, backward: 0.234453, update: 0.021702
+2022-11-18 10:06:44 INFO     [GPU 0] step: 1099, loss: 0.43199, reg: 1.0682e-03, speed: 44.21 steps/s, time: 2.26 s
+2022-11-18 10:06:44 INFO     sample: 0.419651, forward: 1.584663, backward: 0.236190, update: 0.021228
+2022-11-18 10:06:46 INFO     [GPU 0] step: 1199, loss: 0.43665, reg: 1.0871e-03, speed: 44.19 steps/s, time: 2.26 s
+2022-11-18 10:06:46 INFO     sample: 0.419785, forward: 1.591051, backward: 0.230663, update: 0.021109
+2022-11-18 10:06:49 INFO     [GPU 0] step: 1299, loss: 0.43383, reg: 1.0990e-03, speed: 44.51 steps/s, time: 2.25 s
+2022-11-18 10:06:49 INFO     sample: 0.420481, forward: 1.576387, backward: 0.228015, update: 0.021165
+2022-11-18 10:06:51 INFO     [GPU 0] step: 1399, loss: 0.43346, reg: 1.1106e-03, speed: 43.96 steps/s, time: 2.27 s
+2022-11-18 10:06:51 INFO     sample: 0.428600, forward: 1.587457, backward: 0.237282, update: 0.021168
+2022-11-18 10:06:53 INFO     [GPU 0] step: 1499, loss: 0.40666, reg: 1.1269e-03, speed: 37.86 steps/s, time: 2.64 s
+2022-11-18 10:06:53 INFO     sample: 0.811652, forward: 1.581970, backward: 0.226029, update: 0.021480
+2022-11-18 10:06:56 INFO     [GPU 0] step: 1599, loss: 0.38013, reg: 1.1509e-03, speed: 44.32 steps/s, time: 2.26 s
+2022-11-18 10:06:56 INFO     sample: 0.421092, forward: 1.581056, backward: 0.232581, update: 0.021051
+2022-11-18 10:06:58 INFO     [GPU 0] step: 1699, loss: 0.39184, reg: 1.1659e-03, speed: 44.06 steps/s, time: 2.27 s
+2022-11-18 10:06:58 INFO     sample: 0.422070, forward: 1.579479, backward: 0.233287, update: 0.034292
+2022-11-18 10:07:00 INFO     [GPU 0] step: 1799, loss: 0.39814, reg: 1.1732e-03, speed: 44.66 steps/s, time: 2.24 s
+2022-11-18 10:07:00 INFO     sample: 0.420643, forward: 1.566916, backward: 0.229562, update: 0.021456
+2022-11-18 10:07:02 INFO     [GPU 0] step: 1899, loss: 0.38626, reg: 1.1829e-03, speed: 44.32 steps/s, time: 2.26 s
+2022-11-18 10:07:02 INFO     sample: 0.420701, forward: 1.583335, backward: 0.230072, update: 0.021600
+2022-11-18 10:07:05 INFO     [GPU 0] step: 1999, loss: 0.35911, reg: 1.1957e-03, speed: 38.19 steps/s, time: 2.62 s
+2022-11-18 10:07:05 INFO     sample: 0.801448, forward: 1.565176, backward: 0.230118, update: 0.021539
+2022-11-18 10:07:05 INFO     test end!
+2022-11-18 10:07:05 INFO     [evaluation] start...
+2023-06-26 01:29:22 INFO     seed                :0
+2023-06-26 01:29:22 INFO     data_path           :/home/zpw/Graph4KG/data
+2023-06-26 01:29:22 INFO     save_path           :output/transe_fb_sgpu/transe_FB15k_d_400_g_19.9_e_gpu_r_gpu_l_Logsigmoid_lr_0.25_0.1_KGE
+2023-06-26 01:29:22 INFO     init_from_ckpt      :None
+2023-06-26 01:29:22 INFO     data_name           :FB15k
+2023-06-26 01:29:22 INFO     use_dict            :False
+2023-06-26 01:29:22 INFO     kv_mode             :kv
+2023-06-26 01:29:22 INFO     batch_size          :1000
+2023-06-26 01:29:22 INFO     test_batch_size     :16
+2023-06-26 01:29:22 INFO     neg_sample_size     :200
+2023-06-26 01:29:22 INFO     filter_eval         :True
+2023-06-26 01:29:22 INFO     model_name          :transe
+2023-06-26 01:29:22 INFO     embed_dim           :400
+2023-06-26 01:29:22 INFO     reg_coef            :1e-09
+2023-06-26 01:29:22 INFO     loss_type           :Logsigmoid
+2023-06-26 01:29:22 INFO     max_steps           :2000000
+2023-06-26 01:29:22 INFO     lr                  :0.25
+2023-06-26 01:29:22 INFO     optimizer           :adagrad
+2023-06-26 01:29:22 INFO     cpu_lr              :0.1
+2023-06-26 01:29:22 INFO     cpu_optimizer       :adagrad
+2023-06-26 01:29:22 INFO     mix_cpu_gpu         :False
+2023-06-26 01:29:22 INFO     async_update        :False
+2023-06-26 01:29:22 INFO     valid               :False
+2023-06-26 01:29:22 INFO     test                :True
+2023-06-26 01:29:22 INFO     task_name           :KGE
+2023-06-26 01:29:22 INFO     num_workers         :8
+2023-06-26 01:29:22 INFO     neg_sample_type     :chunk
+2023-06-26 01:29:22 INFO     neg_deg_sample      :False
+2023-06-26 01:29:22 INFO     neg_adversarial_sampling:True
+2023-06-26 01:29:22 INFO     adversarial_temperature:1.0
+2023-06-26 01:29:22 INFO     filter_sample       :False
+2023-06-26 01:29:22 INFO     valid_percent       :1.0
+2023-06-26 01:29:22 INFO     use_feature         :False
+2023-06-26 01:29:22 INFO     reg_type            :norm_er
+2023-06-26 01:29:22 INFO     reg_norm            :3
+2023-06-26 01:29:22 INFO     weighted_loss       :False
+2023-06-26 01:29:22 INFO     margin              :1.0
+2023-06-26 01:29:22 INFO     pairwise            :False
+2023-06-26 01:29:22 INFO     gamma               :19.9
+2023-06-26 01:29:22 INFO     ote_scale           :0
+2023-06-26 01:29:22 INFO     ote_size            :1
+2023-06-26 01:29:22 INFO     quate_lmbda1        :0.0
+2023-06-26 01:29:22 INFO     quate_lmbda2        :0.0
+2023-06-26 01:29:22 INFO     num_epoch           :50
+2023-06-26 01:29:22 INFO     scheduler_interval  :-1
+2023-06-26 01:29:22 INFO     num_process         :1
+2023-06-26 01:29:22 INFO     print_on_screen     :True
+2023-06-26 01:29:22 INFO     log_interval        :1000
+2023-06-26 01:29:22 INFO     save_interval       :-1
+2023-06-26 01:29:22 INFO     eval_interval       :24000
+2023-06-26 01:29:22 INFO     ent_emb_on_cpu      :False
+2023-06-26 01:29:22 INFO     rel_emb_on_cpu      :False
+2023-06-26 01:29:22 INFO     use_embedding_regularization:True
+2023-06-26 01:29:22 INFO     ent_dim             :400
+2023-06-26 01:29:22 INFO     rel_dim             :400
+2023-06-26 01:29:22 INFO     num_chunks          :5
+2023-06-26 01:30:48 INFO     seed                :0
+2023-06-26 01:30:48 INFO     data_path           :/home/zpw/Graph4KG/data
+2023-06-26 01:30:48 INFO     save_path           :output/transe_fb_sgpu/transe_FB15k_d_400_g_19.9_e_gpu_r_gpu_l_Logsigmoid_lr_0.25_0.1_KGE
+2023-06-26 01:30:48 INFO     init_from_ckpt      :None
+2023-06-26 01:30:48 INFO     data_name           :FB15k
+2023-06-26 01:30:48 INFO     use_dict            :False
+2023-06-26 01:30:48 INFO     kv_mode             :kv
+2023-06-26 01:30:48 INFO     batch_size          :1000
+2023-06-26 01:30:48 INFO     test_batch_size     :16
+2023-06-26 01:30:48 INFO     neg_sample_size     :200
+2023-06-26 01:30:48 INFO     filter_eval         :True
+2023-06-26 01:30:48 INFO     model_name          :transe
+2023-06-26 01:30:48 INFO     embed_dim           :400
+2023-06-26 01:30:48 INFO     reg_coef            :1e-09
+2023-06-26 01:30:48 INFO     loss_type           :Logsigmoid
+2023-06-26 01:30:48 INFO     max_steps           :2000000
+2023-06-26 01:30:48 INFO     lr                  :0.25
+2023-06-26 01:30:48 INFO     optimizer           :adagrad
+2023-06-26 01:30:48 INFO     cpu_lr              :0.1
+2023-06-26 01:30:48 INFO     cpu_optimizer       :adagrad
+2023-06-26 01:30:48 INFO     mix_cpu_gpu         :False
+2023-06-26 01:30:48 INFO     async_update        :False
+2023-06-26 01:30:48 INFO     valid               :False
+2023-06-26 01:30:48 INFO     test                :True
+2023-06-26 01:30:48 INFO     task_name           :KGE
+2023-06-26 01:30:48 INFO     num_workers         :8
+2023-06-26 01:30:48 INFO     neg_sample_type     :chunk
+2023-06-26 01:30:48 INFO     neg_deg_sample      :False
+2023-06-26 01:30:48 INFO     neg_adversarial_sampling:True
+2023-06-26 01:30:48 INFO     adversarial_temperature:1.0
+2023-06-26 01:30:48 INFO     filter_sample       :False
+2023-06-26 01:30:48 INFO     valid_percent       :1.0
+2023-06-26 01:30:48 INFO     use_feature         :False
+2023-06-26 01:30:48 INFO     reg_type            :norm_er
+2023-06-26 01:30:48 INFO     reg_norm            :3
+2023-06-26 01:30:48 INFO     weighted_loss       :False
+2023-06-26 01:30:48 INFO     margin              :1.0
+2023-06-26 01:30:48 INFO     pairwise            :False
+2023-06-26 01:30:48 INFO     gamma               :19.9
+2023-06-26 01:30:48 INFO     ote_scale           :0
+2023-06-26 01:30:48 INFO     ote_size            :1
+2023-06-26 01:30:48 INFO     quate_lmbda1        :0.0
+2023-06-26 01:30:48 INFO     quate_lmbda2        :0.0
+2023-06-26 01:30:48 INFO     num_epoch           :50
+2023-06-26 01:30:48 INFO     scheduler_interval  :-1
+2023-06-26 01:30:48 INFO     num_process         :1
+2023-06-26 01:30:48 INFO     print_on_screen     :True
+2023-06-26 01:30:48 INFO     log_interval        :1000
+2023-06-26 01:30:48 INFO     save_interval       :-1
+2023-06-26 01:30:48 INFO     eval_interval       :24000
+2023-06-26 01:30:48 INFO     ent_emb_on_cpu      :False
+2023-06-26 01:30:48 INFO     rel_emb_on_cpu      :False
+2023-06-26 01:30:48 INFO     use_embedding_regularization:True
+2023-06-26 01:30:48 INFO     ent_dim             :400
+2023-06-26 01:30:48 INFO     rel_dim             :400
+2023-06-26 01:30:48 INFO     num_chunks          :5
+2023-06-26 01:34:58 INFO     [GPU 0] step: 999, loss: 0.72516, reg: 8.7168e-04, speed: 4.10 steps/s, time: 244.09 s
+2023-06-26 01:34:58 INFO     sample: 1.529790, forward: 60.710563, backward: 158.821476, update: 23.016528
+2023-06-26 01:38:59 INFO     [GPU 0] step: 1999, loss: 0.40592, reg: 1.1387e-03, speed: 4.15 steps/s, time: 241.23 s
+2023-06-26 01:38:59 INFO     sample: 1.205390, forward: 59.809821, backward: 158.069310, update: 22.136901
+2023-06-26 01:43:01 INFO     [GPU 0] step: 2999, loss: 0.34283, reg: 1.2581e-03, speed: 4.13 steps/s, time: 241.90 s
+2023-06-26 01:43:01 INFO     sample: 1.197839, forward: 60.061945, backward: 158.409514, update: 22.224591
+2023-06-26 01:47:03 INFO     [GPU 0] step: 3999, loss: 0.31170, reg: 1.3395e-03, speed: 4.14 steps/s, time: 241.83 s
+2023-06-26 01:47:03 INFO     sample: 1.202712, forward: 60.051036, backward: 158.371379, update: 22.192657
+2023-06-26 01:51:05 INFO     [GPU 0] step: 4999, loss: 0.29168, reg: 1.4000e-03, speed: 4.13 steps/s, time: 241.91 s
+2023-06-26 01:51:05 INFO     sample: 1.211962, forward: 60.087636, backward: 158.392875, update: 22.211187
+2023-06-26 01:55:07 INFO     [GPU 0] step: 5999, loss: 0.27837, reg: 1.4492e-03, speed: 4.13 steps/s, time: 241.94 s
+2023-06-26 01:55:07 INFO     sample: 1.217637, forward: 60.168141, backward: 158.341623, update: 22.199382
+2023-06-26 01:59:09 INFO     [GPU 0] step: 6999, loss: 0.26882, reg: 1.4920e-03, speed: 4.13 steps/s, time: 242.03 s
+2023-06-26 01:59:09 INFO     sample: 1.222622, forward: 60.201032, backward: 158.390612, update: 22.202614
+2023-06-26 02:03:11 INFO     [GPU 0] step: 7999, loss: 0.26161, reg: 1.5295e-03, speed: 4.14 steps/s, time: 241.79 s
+2023-06-26 02:03:11 INFO     sample: 1.213664, forward: 60.045962, backward: 158.327047, update: 22.197008
+2023-06-26 02:07:11 INFO     [GPU 0] step: 8999, loss: 0.25561, reg: 1.5625e-03, speed: 4.15 steps/s, time: 240.84 s
+2023-06-26 02:07:11 INFO     sample: 1.209611, forward: 59.721341, backward: 157.772907, update: 22.127014
+2023-06-26 02:11:11 INFO     [GPU 0] step: 9999, loss: 0.25123, reg: 1.5933e-03, speed: 4.17 steps/s, time: 239.85 s
+2023-06-26 02:11:11 INFO     sample: 1.204178, forward: 59.392972, backward: 157.198539, update: 22.046781
+2023-06-26 02:15:11 INFO     [GPU 0] step: 10999, loss: 0.24780, reg: 1.6212e-03, speed: 4.17 steps/s, time: 239.85 s
+2023-06-26 02:15:11 INFO     sample: 1.208176, forward: 59.424168, backward: 157.169163, update: 22.039525
+2023-06-26 02:19:11 INFO     [GPU 0] step: 11999, loss: 0.24416, reg: 1.6467e-03, speed: 4.17 steps/s, time: 239.83 s
+2023-06-26 02:19:11 INFO     sample: 1.217293, forward: 59.429886, backward: 157.131109, update: 22.038371
+2023-06-26 02:23:11 INFO     [GPU 0] step: 12999, loss: 0.24155, reg: 1.6712e-03, speed: 4.17 steps/s, time: 239.90 s
+2023-06-26 02:23:11 INFO     sample: 1.203252, forward: 59.421329, backward: 157.229588, update: 22.040108
+2023-06-26 02:27:11 INFO     [GPU 0] step: 13999, loss: 0.23985, reg: 1.6939e-03, speed: 4.17 steps/s, time: 239.83 s
+2023-06-26 02:27:11 INFO     sample: 1.225865, forward: 59.379559, backward: 157.179035, update: 22.036196
+2023-06-26 02:31:11 INFO     [GPU 0] step: 14999, loss: 0.23738, reg: 1.7158e-03, speed: 4.16 steps/s, time: 240.17 s
+2023-06-26 02:31:11 INFO     sample: 1.456439, forward: 59.447724, backward: 157.172430, update: 22.081775
+2023-06-26 02:35:11 INFO     [GPU 0] step: 15999, loss: 0.23561, reg: 1.7357e-03, speed: 4.17 steps/s, time: 239.84 s
+2023-06-26 02:35:11 INFO     sample: 1.203415, forward: 59.424800, backward: 157.141890, update: 22.059385
+2023-06-26 02:39:12 INFO     [GPU 0] step: 16999, loss: 0.23413, reg: 1.7552e-03, speed: 4.15 steps/s, time: 241.25 s
+2023-06-26 02:39:12 INFO     sample: 1.218988, forward: 59.870278, backward: 157.882694, update: 22.272715
+2023-06-26 02:43:14 INFO     [GPU 0] step: 17999, loss: 0.23248, reg: 1.7727e-03, speed: 4.13 steps/s, time: 242.25 s
+2023-06-26 02:43:14 INFO     sample: 1.201111, forward: 60.132127, backward: 158.478670, update: 22.425192
+2023-06-26 02:47:16 INFO     [GPU 0] step: 18999, loss: 0.23133, reg: 1.7904e-03, speed: 4.13 steps/s, time: 242.22 s
+2023-06-26 02:47:16 INFO     sample: 1.214094, forward: 60.134441, backward: 158.440072, update: 22.419326
+2023-06-26 02:51:18 INFO     [GPU 0] step: 19999, loss: 0.23017, reg: 1.8065e-03, speed: 4.14 steps/s, time: 241.82 s
+2023-06-26 02:51:18 INFO     sample: 1.226973, forward: 59.923341, backward: 158.243891, update: 22.417280
+2023-06-26 02:55:20 INFO     [GPU 0] step: 20999, loss: 0.22928, reg: 1.8223e-03, speed: 4.14 steps/s, time: 241.76 s
+2023-06-26 02:55:20 INFO     sample: 1.202976, forward: 59.887652, backward: 158.246780, update: 22.408662
+2023-06-26 02:59:22 INFO     [GPU 0] step: 21999, loss: 0.22814, reg: 1.8372e-03, speed: 4.14 steps/s, time: 241.74 s
+2023-06-26 02:59:22 INFO     sample: 1.227969, forward: 59.909492, backward: 158.161510, update: 22.431660
+2023-06-26 03:03:24 INFO     [GPU 0] step: 22999, loss: 0.22803, reg: 1.8519e-03, speed: 4.13 steps/s, time: 241.88 s
+2023-06-26 03:03:24 INFO     sample: 1.219985, forward: 59.930616, backward: 158.309475, update: 22.413752
+2023-06-26 03:07:25 INFO     [GPU 0] step: 23999, loss: 0.22715, reg: 1.8651e-03, speed: 4.14 steps/s, time: 241.71 s
+2023-06-26 03:07:25 INFO     sample: 1.202328, forward: 59.884694, backward: 158.214387, update: 22.403022
+2023-06-26 03:08:02 INFO     [evaluation] start...
+2023-06-26 06:11:28 INFO     -------------- test result --------------
+2023-06-26 06:11:28 INFO     t,r->h  |MRR: 0.3588227927684784 MR: 184.2963383047519 HITS@1: 0.24824363901068205 HITS@3: 0.41578778080614853 HITS@10: 0.5651334834351882
+2023-06-26 06:11:28 INFO     h,r->t  |MRR: 0.7504289150238037 MR: 6.3882785122987595 HITS@1: 0.5428552081393577 HITS@3: 0.959218567486584 HITS@10: 0.9906383843171777
+2023-06-26 06:11:28 INFO     average |MRR: 0.5546258687973022 MR: 95.34230840852534 HITS@1: 0.3955494235750199 HITS@3: 0.6875031741463662 HITS@10: 0.777885933876183
+2023-06-26 06:11:28 INFO     -----------------------------------------
+2023-06-26 06:11:29 INFO     [evaluation] finished! It takes 11007.0410 sec (3.0575 hours) s
